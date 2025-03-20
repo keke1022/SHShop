@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Keychron K6 键盘",
+    "price": 30,
+    "shortDescription": "键盘",
+    "longDescription": "运行良好...",
+    "image": "/images/keyboard.JPG",
+    "gallery": ["/images/keyboard.JPG"]
+  },
+  {
+    "id": 2,
+    "name": "电脑支架",
+    "price": 1,
+    "shortDescription": "能用",
+    "longDescription": "几乎全新...",
+    "image": "/images/support.JPG",
+    "gallery": ["/images/support.JPG"]
+  }
+]
