@@ -5,7 +5,7 @@ import DetailPage from "./pages/DetailPage";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/SHShop">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/product/:id" element={<DetailPage />} />
