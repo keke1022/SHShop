@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import products from "../data/products.json";
 
@@ -12,7 +11,7 @@ function HomePage() {
             <img src={product.image} alt={product.name} width="100%" />
             <h3>{product.name}</h3>
             <p>{product.shortDescription}</p>
-            <p>价格: ¥{product.price}</p>
+            <p>价格: {product.price}</p>
             <Link to={`/product/${product.id}`}>查看详情</Link>
           </div>
         ))}
