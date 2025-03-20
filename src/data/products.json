@@ -5,8 +5,8 @@
     "price": 30,
     "shortDescription": "键盘",
     "longDescription": "运行良好...",
-    "image": "/images/keyboard.JPG",
-    "gallery": ["/images/keyboard.JPG"]
+    "image": "/images/keyboard.jpeg",
+    "gallery": ["/images/keyboard.jpeg"]
   },
   {
     "id": 2,
@@ -14,7 +14,7 @@
     "price": 1,
     "shortDescription": "能用",
     "longDescription": "几乎全新...",
-    "image": "/images/support.JPG",
-    "gallery": ["/images/support.JPG"]
+    "image": "/images/support.jpeg",
+    "gallery": ["/images/support.jpeg"]
   }
 ]
