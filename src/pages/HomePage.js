@@ -8,7 +8,7 @@ function HomePage() {
       <div style={{ display: "flex", flexWrap: "wrap" }}>
         {products.map((product) => (
           <div key={product.id} style={{ width: "200px", margin: "10px" }}>
-            <img src={product.image} alt={product.name} width="100%" />
+            <img src={`${process.env.PUBLIC_URL}/${product.image}`} alt={product.name} width="100%" />
             <h3>{product.name}</h3>
             <p>{product.shortDescription}</p>
             <p>价格: {product.price}</p>
