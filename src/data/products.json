@@ -16,5 +16,41 @@
     "longDescription": "几乎全新...",
     "image": "/images/support.jpeg",
     "gallery": ["/images/support.jpeg"]
+  },
+  {
+    "id": 3,
+    "name": "Airtag",
+    "price": 18.8,
+    "shortDescription": "airtag全新未拆, 带保护壳",
+    "longDescription": "全新, 可以放在行李箱里追踪行李",
+    "image": "/images/airtag.jpeg",
+    "gallery": ["/images/airtag.jpeg"]
+  },
+  {
+    "id": 4,
+    "name": "Target台灯",
+    "price": 5,
+    "shortDescription": "能用",
+    "longDescription": "几乎全新...",
+    "image": "/images/lamp.jpeg",
+    "gallery": ["/images/lamp.jpeg"]
+  },
+  {
+    "id": 5,
+    "name": "投影仪",
+    "price": 60,
+    "shortDescription": "好用",
+    "longDescription": "几乎全新...",
+    "image": "/images/projector.jpeg",
+    "gallery": ["/images/projector.jpeg"]
+  },
+  {
+    "id": 6,
+    "name": "电视+电视柜",
+    "price": 120,
+    "shortDescription": "能用",
+    "longDescription": "几乎全新...",
+    "image": "/images/TV.jpeg",
+    "gallery": ["/images/TV.jpeg"]
   }
 ]
