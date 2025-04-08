@@ -1,0 +1,135 @@
+/* 整体页面容器 */
+.page-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* 页面标题 */
+  .main-title {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  /* 简介文字 */
+  .description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* 触发器按钮，如果需要打开可以取消注释按钮内联样式的删除，此处样式提供参考 */
+  .trigger-button {
+    margin-bottom: 20px;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* 导航条样式 */
+  .navigation {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    padding: 8px 12px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  /* 各区域容器 */
+  .section {
+    margin-top: 40px;
+  }
+  
+  /* 区域标题 */
+  .section-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* 产品展示容器 */
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  /* 产品卡片样式 */
+  .product-card {
+    width: 220px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  /* 鼠标悬停时效果 */
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* 产品图片样式 */
+  .product-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* 产品名称 */
+  .product-name {
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  /* 简短描述 */
+  .short-description {
+    color: #888;
+    font-size: 14px;
+  }
+  
+  /* 价格样式 */
+  .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff5500;
+  }
+  
+  /* 详情链接 */
+  .detail-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff6600;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* 无赠送产品时的提示 */
+  .no-products {
+    color: #888;
+    font-size: 16px;
+  }

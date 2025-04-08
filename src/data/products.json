@@ -4,16 +4,16 @@
     "name": "Keychron K6 键盘",
     "price": 30,
     "shortDescription": "键盘",
-    "longDescription": "运行良好...",
+    "longDescription": "Mac/Win键盘, 敲击声音适中, 有段落感.",
     "image": "/images/keyboard.jpeg",
     "gallery": ["/images/keyboard.jpeg"]
   },
   {
     "id": 2,
     "name": "电脑支架",
-    "price": 1,
+    "price": 0,
     "shortDescription": "能用",
-    "longDescription": "几乎全新...",
+    "longDescription": "可以把电脑架起来, 比较美观",
     "image": "/images/support.jpeg",
     "gallery": ["/images/support.jpeg"]
   },
@@ -22,7 +22,7 @@
     "name": "Airtag",
     "price": 18.8,
     "shortDescription": "airtag全新未拆, 带保护壳",
-    "longDescription": "全新, 可以放在行李箱里追踪行李",
+    "longDescription": "全新airtag带保护壳骨折价! 一个18.8. 可以放在行李箱里追踪行李.",
     "image": "/images/airtag.jpeg",
     "gallery": ["/images/airtag.jpeg"]
   },
@@ -31,7 +31,7 @@
     "name": "Target台灯",
     "price": 5,
     "shortDescription": "能用",
-    "longDescription": "几乎全新...",
+    "longDescription": "小小的外壳, 但是灯泡非常亮",
     "image": "/images/lamp.jpeg",
     "gallery": ["/images/lamp.jpeg"]
   },
@@ -40,17 +40,62 @@
     "name": "投影仪",
     "price": 60,
     "shortDescription": "好用",
-    "longDescription": "几乎全新...",
+    "longDescription": "有遥控器, 可以手机/电脑投屏. 支持ios mirroring. 放映画质适中. 缺点是不能矫正画面. 投影仪位置一定要放得比较高",
     "image": "/images/projector.jpeg",
     "gallery": ["/images/projector.jpeg"]
   },
   {
     "id": 6,
     "name": "电视+电视柜",
-    "price": 120,
+    "price": 140,
     "shortDescription": "能用",
-    "longDescription": "几乎全新...",
+    "longDescription": "本人会用电视打游戏. 一般用HDMI连接电脑后当显示器用. 双人打游戏同屏很舒服! 电视柜很新, 也可以分开销售.",
     "image": "/images/TV.jpeg",
     "gallery": ["/images/TV.jpeg"]
+  },
+  {
+    "id": 7,
+    "name": "自行车",
+    "price": 150,
+    "shortDescription": "能用",
+    "longDescription": "本人很珍惜的车, 意义很大. 车况良好, 24年暑假获得. 期间换过一次自行车链. 有3*8=24档变速.",
+    "image": "/images/bicycle.jpeg",
+    "gallery": ["/images/bicycle.jpeg"]
+  },
+  {
+    "id": 8,
+    "name": "杯刷",
+    "price": 2,
+    "shortDescription": "能用",
+    "longDescription": "Target杯刷单个",
+    "image": "/images/cupbrush.jpeg",
+    "gallery": ["/images/cupbrush.jpeg"]
+  },
+  {
+    "id": 9,
+    "name": "理发刀套装",
+    "price": 5,
+    "shortDescription": "能用",
+    "longDescription": "便宜出! 建议希望尝试理发, 但是不想买很贵的设备的入.",
+    "image": "/images/haircut.jpeg",
+    "gallery": ["/images/haircut.jpeg"]
+  },
+  {
+    "id": 10,
+    "name": "吹风机",
+    "price": 15,
+    "shortDescription": "能用",
+    "longDescription": "希望出的时间晚一些",
+    "image": "/images/hairdryer.jpeg",
+    "gallery": ["/images/hairdryer.jpeg"]
+  },
+  {
+    "id": 11,
+    "name": "直板夹",
+    "price": 15,
+    "shortDescription": "能用",
+    "longDescription": "很新. 希望出的时间晚一些.",
+    "image": "/images/straightclip.jpeg",
+    "gallery": ["/images/straightclip.jpeg"]
   }
 ]
