@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { useParams, Link } from "react-router-dom";
 import products from "../data/products.json";
 
 function DetailPage() {
   const { id } = useParams();
   const product = products.find((p) => p.id === parseInt(id));
-  const [freeMode, setFreeMode] = useState(false);
 
   if (!product) {
     return (
@@ -32,17 +31,6 @@ function DetailPage() {
 
   return (
     <div style={{ padding: "20px", maxWidth: "800px", margin: "auto" }}>
-
-      {/* <button 
-        onClick={() => setFreeMode(!freeMode)}
-        style={{
-          padding: "8px 15px",
-          marginBottom: "20px",
-          fontSize: "16px"
-        }}
-      >
-        {freeMode ? "关闭免费模式" : "开启免费模式"}
-      </button> */}
 
       <Link
         to="/"
@@ -77,7 +65,7 @@ function DetailPage() {
           textAlign: "center",
         }}
       >
-        Price: {freeMode ? "🎁 免费领取" : `💲${product.price}`}
+        Price: {`💲${product.price}`}
       </p>
 
       <h3 style={{ color: "#444", marginTop: "30px", marginBottom: "10px" }}>
