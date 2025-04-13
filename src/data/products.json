@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "name": "Keychron K6 键盘",
-    "price": 30,
-    "shortDescription": "键盘",
-    "longDescription": "Mac/Win键盘, 敲击声音适中, 有段落感.",
-    "image": "/images/keyboard.jpeg",
-    "gallery": ["/images/keyboard.jpeg"]
+    "name": "次卧转租!",
+    "price": 750,
+    "shortDescription": "安娜堡北校好房转租",
+    "longDescription": "🔥【性价比爆棚】Willowtree Apartment 2B1B次卧暑期转租 🔥\n\n🗓 时间：2024/5/10 - 2024/7/31\n💰 租金：原价1079，现价仅750/月，包水气，网电另算\n📍 地址：1861 Shirley Lane\n📱 微信联系：j1600882808\n\n🚍 交通便利：公寓门口即是公交站（23/65路），15分钟直达中校，步行10-15分钟可达北校各大教学楼\n\n🍜 吃喝玩乐：3分钟内步行可达：Burger One、Mochinut、CoCo奶茶、NoThai、Nagomi、Saica、鸿运中餐；8分钟到北校NCRB健身中心；15分钟到Kroger、Way One中国超市、Moge Tee、麦当劳、Evergreen中餐\n\n🏠 公寓配置：一楼方便搬家，暑期独享整间，安静舒适；全套家具+生活用品（床、床垫、桌椅、厨具、电器、吸尘器等应有尽有）；小区配套：健身房、篮球场、网球场、游泳池、免费停车、物业可代收快递.",
+    "image": "/images/house.jpeg",
+    "gallery": ["/images/house.jpeg", "/images/apartment.jpg"]
   },
   {
     "id": 2,
     "name": "电脑支架",
     "price": 0,
-    "shortDescription": "能用",
-    "longDescription": "可以把电脑架起来, 比较美观",
+    "shortDescription": "简约实用",
+    "longDescription": "桌面更整洁，使用体验佳。",
     "image": "/images/support.jpeg",
     "gallery": ["/images/support.jpeg"]
   },
@@ -22,7 +22,7 @@
     "name": "Airtag",
     "price": 18.8,
     "shortDescription": "airtag全新未拆, 带保护壳",
-    "longDescription": "全新airtag带保护壳骨折价! 一个18.8. 可以放在行李箱里追踪行李.",
+    "longDescription": "全新未拆的AirTag，附赠保护壳，适合放行李追踪。限量价一个仅18.8！",
     "image": "/images/airtag.jpeg",
     "gallery": ["/images/airtag.jpeg"]
   },
@@ -30,8 +30,8 @@
     "id": 4,
     "name": "Target台灯",
     "price": 5,
-    "shortDescription": "能用",
-    "longDescription": "小小的外壳, 但是灯泡非常亮",
+    "shortDescription": "小巧高亮",
+    "longDescription": "外观小巧不占地，但灯泡亮度非常给力，学习办公都适用。",
     "image": "/images/lamp.jpeg",
     "gallery": ["/images/lamp.jpeg"]
   },
@@ -39,8 +39,8 @@
     "id": 5,
     "name": "投影仪",
     "price": 60,
-    "shortDescription": "好用",
-    "longDescription": "有遥控器, 可以手机/电脑投屏. 支持ios mirroring. 放映画质适中. 缺点是不能矫正画面. 投影仪位置一定要放得比较高",
+    "shortDescription": "手机电脑可投屏",
+    "longDescription": "配遥控器，支持手机/电脑投屏和iOS镜像。画质中等但足够日常观影。注意：画面不能自动矫正，放置位置需要稍高。",
     "image": "/images/projector.jpeg",
     "gallery": ["/images/projector.jpeg"]
   },
@@ -48,8 +48,8 @@
     "id": 6,
     "name": "电视+电视柜",
     "price": 140,
-    "shortDescription": "能用",
-    "longDescription": "本人会用电视打游戏. 一般用HDMI连接电脑后当显示器用. 双人打游戏同屏很舒服! 电视柜很新, 也可以分开销售.",
+    "shortDescription": "打游戏神器! 双影奇境同屏神器!",
+    "longDescription": "电视可连HDMI当显示器用，打游戏体验一流。电视柜九成新，可打包也可分开出。",
     "image": "/images/TV.jpeg",
     "gallery": ["/images/TV.jpeg"]
   },
@@ -57,8 +57,8 @@
     "id": 7,
     "name": "自行车",
     "price": 150,
-    "shortDescription": "能用",
-    "longDescription": "本人很珍惜的车, 意义很大. 车况良好, 24年暑假获得. 期间换过一次自行车链. 有3*8=24档变速.",
+    "shortDescription": "变速顺畅，维护良好",
+    "longDescription": "暑假购入，珍惜使用。车况极佳，24档变速（3*8），链条已更换过一次。",
     "image": "/images/bicycle.jpeg",
     "gallery": ["/images/bicycle.jpeg"]
   },
@@ -66,8 +66,8 @@
     "id": 8,
     "name": "杯刷",
     "price": 2,
-    "shortDescription": "能用",
-    "longDescription": "Target杯刷单个",
+    "shortDescription": "Target 杯刷",
+    "longDescription": "Target牌杯刷，单个出售，实用小物。",
     "image": "/images/cupbrush.jpeg",
     "gallery": ["/images/cupbrush.jpeg"]
   },
@@ -75,8 +75,8 @@
     "id": 9,
     "name": "理发刀套装",
     "price": 5,
-    "shortDescription": "能用",
-    "longDescription": "便宜出! 建议希望尝试理发, 但是不想买很贵的设备的入.",
+    "shortDescription": "适合新手尝试",
+    "longDescription": "非常适合想自己剪头但不想投资太多的入门选手。便宜出，成就你的Tony梦。",
     "image": "/images/haircut.jpeg",
     "gallery": ["/images/haircut.jpeg"]
   },
@@ -84,8 +84,8 @@
     "id": 10,
     "name": "吹风机",
     "price": 15,
-    "shortDescription": "能用",
-    "longDescription": "希望出的时间晚一些",
+    "shortDescription": "使用正常",
+    "longDescription": "使用良好，吹力OK。希望可以晚些出手，请排队等候（谢谢）。",
     "image": "/images/hairdryer.jpeg",
     "gallery": ["/images/hairdryer.jpeg"]
   },
@@ -93,9 +93,45 @@
     "id": 11,
     "name": "直板夹",
     "price": 15,
-    "shortDescription": "能用",
-    "longDescription": "很新. 希望出的时间晚一些.",
+    "shortDescription": "成色新，正常使用",
+    "longDescription": "几乎全新，使用次数不多。希望可以晚些出，有意请备注。",
     "image": "/images/straightclip.jpeg",
     "gallery": ["/images/straightclip.jpeg"]
+  },
+  {
+    "id": 12,
+    "name": "Keychron K6 键盘",
+    "price": 30,
+    "shortDescription": "机械键盘，手感好",
+    "longDescription": "兼容Mac/Win，段落感强，敲击声音适中。适合办公+轻度游戏，性价比高。",
+    "image": "/images/keyboard.jpeg",
+    "gallery": ["/images/keyboard.jpeg"]
+  },
+  {
+    "id": 13,
+    "name": "Chiikawa贴纸",
+    "price": 0,
+    "shortDescription": "免费贴纸大放送",
+    "longDescription": "Chiikawa 可爱贴纸若干，角色控自取，只图可爱。",
+    "image": "/images/chiikawa.jpeg",
+    "gallery": ["/images/chiikawa.jpeg"]
+  },
+  {
+    "id": 14,
+    "name": "小收纳盒",
+    "price": 0,
+    "shortDescription": "桌面整理小能手",
+    "longDescription": "三个不同尺寸的小收纳盒，适合分类收纳文具、小物件，让桌面瞬间告别乱糟糟。",
+    "image": "/images/container.jpeg",
+    "gallery": ["/images/container.jpeg"]
+  },
+  {
+    "id": 15,
+    "name": "电音蝌蚪",
+    "price": 25,
+    "shortDescription": "Otamatone入门神器",
+    "longDescription": "Otamatone电音蝌蚪，可以发出各种奇妙声音。能演奏简单旋律，也可教学",
+    "image": "/images/otamatone.jpeg",
+    "gallery": ["/images/otamatone.jpeg"]
   }
 ]

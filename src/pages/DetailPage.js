@@ -11,7 +11,7 @@ function DetailPage() {
     return (
       <div style={{ textAlign: "center", padding: "20px" }}>
         <h2 style={{ color: "red" }}>⚠️Not found！</h2>
-        <p>可能已经被抢购啦</p>
+        <p>可能已经被抢走了，出手还是要快！</p>
         <Link
           to="/"
           style={{
@@ -24,7 +24,7 @@ function DetailPage() {
             fontWeight: "bold",
           }}
         >
-          ⬅ 返回首页
+          ⬅ 回到主页看看别的好物
         </Link>
       </div>
     );
@@ -77,8 +77,12 @@ function DetailPage() {
           textAlign: "center",
         }}
       >
-        Price: 💲{freeMode ? 0 : product.price}
+        Price: {freeMode ? "🎁 免费领取" : `💲${product.price}`}
       </p>
+
+      <h3 style={{ color: "#444", marginTop: "30px", marginBottom: "10px" }}>
+        📦 商品详情
+      </h3>
 
       <p
         style={{
@@ -87,6 +91,7 @@ function DetailPage() {
           lineHeight: "1.6",
           textAlign: "justify",
           marginBottom: "20px",
+          whiteSpace: "pre-line",
         }}
       >
         {product.longDescription}

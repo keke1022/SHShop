@@ -4,29 +4,45 @@ import products from "../data/products.json";
 import "./HomePage.css";
 
 function HomePage() {
-  // 定义是否自由模式的状态
-  const [freeMode, setFreeMode] = useState(false);
+  // 定义价格过滤器状态，初始值设为30
+  const [priceFilter, setPriceFilter] = useState(999);
 
-  // 正常情况下，假设价格大于0为二手产品，价格等于0为赠送产品
-  const secondHandProducts = products.filter((product) => product.price > 0);
+  // 假设滑条最大值为100，根据需求也可以动态计算
+  const maxPriceFilter = 999;
+
+  // 过滤出价格大于0且低于等于 priceFilter 的二手商品
+  const secondHandProducts = products.filter(
+    (product) => product.price > 0 && product.price <= priceFilter
+  );
+
+  // 过滤出赠送商品，价格为0
   const donationProducts = products.filter((product) => product.price === 0);
+
+  const handleSliderChange = (e) => {
+    setPriceFilter(Number(e.target.value));
+  };
 
   return (
     <div className="page-container">
-      <h1 className="main-title">Willowtree出二手!</h1>
+      <h1 className="main-title">🛍 Willowtree 清仓宝库</h1>
       <p className="description">
-        联系方式: wx: j1600882808. 可小刀, 长期出. 二手商品越晚越便宜!
+        微信：<strong>j1600882808</strong> ｜持续更新｜支持小刀，最好自取, 越晚越便宜，机会难得！
       </p>
 
-      {/* 如果需要触发器可以取消下面按钮的注释 */}
-      {/*
-      <button
-        className="trigger-button"
-        onClick={() => setFreeMode(!freeMode)}
-      >
-        {freeMode ? "关闭免费模式" : "开启免费模式"}
-      </button>
-      */}
+      {/* 价格过滤滑条 */}
+      <div className="price-filter">
+        <label htmlFor="priceRange" style={{ marginRight: "10px" }}>
+          仅显示价格低于：${priceFilter}
+        </label>
+        <input
+          id="priceRange"
+          type="range"
+          min="0"
+          max={maxPriceFilter}
+          value={priceFilter}
+          onChange={handleSliderChange}
+        />
+      </div>
 
       <div className="navigation">
         <a href="#second-hand" className="nav-link">
@@ -37,35 +53,41 @@ function HomePage() {
         </a>
       </div>
 
+      {/* 二手区 */}
       <div id="second-hand" className="section">
-        <h2 className="section-title">二手区</h2>
-        <div className="product-container">
-          {secondHandProducts.map((product) => (
-            <div key={product.id} className="product-card">
-              <Link to={`/product/${product.id}`}>
-                <img
-                  src={`${process.env.PUBLIC_URL}/${product.image}`}
-                  alt={product.name}
-                  className="product-image"
-                />
-              </Link>
-              <h3 className="product-name">{product.name}</h3>
-              <p className="short-description">
-                {product.shortDescription}
-              </p>
-              <p className="price">
-                💰Price: 💲{freeMode ? 0 : product.price}
-              </p>
-              <Link to={`/product/${product.id}`} className="detail-link">
-                🔍Details
-              </Link>
-            </div>
-          ))}
-        </div>
+        <h2 className="section-title">🛒 二手精选</h2>
+        {secondHandProducts.length > 0 ? (
+          <div className="product-container">
+            {secondHandProducts.map((product) => (
+              <div key={product.id} className="product-card">
+                <Link to={`/product/${product.id}`}>
+                  <img
+                    src={`${process.env.PUBLIC_URL}/${product.image}`}
+                    alt={product.name}
+                    className="product-image"
+                  />
+                </Link>
+                <h3 className="product-name">{product.name}</h3>
+                <p className="short-description">
+                  {product.shortDescription || "暂无描述，点进来或许有惊喜"}
+                </p>
+                <p className="price">💰 价格：${product.price}</p>
+                <Link to={`/product/${product.id}`} className="detail-link">
+                  🔍 查看详情
+                </Link>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <p className="no-products">
+            没有找到符合条件的商品，试试调高筛选价格！
+          </p>
+        )}
       </div>
 
+      {/* 赠送区 */}
       <div id="donation" className="section">
-        <h2 className="section-title">赠送区</h2>
+        <h2 className="section-title">🎁 免费赠送</h2>
         {donationProducts.length > 0 ? (
           <div className="product-container">
             {donationProducts.map((product) => (
@@ -79,19 +101,19 @@ function HomePage() {
                 </Link>
                 <h3 className="product-name">{product.name}</h3>
                 <p className="short-description">
-                  {product.shortDescription}
+                  {product.shortDescription || "这商品免费，但品质依然在线"}
                 </p>
-                <p className="price">
-                  💰Price: 💲{freeMode ? 0 : product.price}
-                </p>
+                <p className="price">💰 价格：$0</p>
                 <Link to={`/product/${product.id}`} className="detail-link">
-                  🔍Details
+                  🔍 查看详情
                 </Link>
               </div>
             ))}
           </div>
         ) : (
-          <p className="no-products">当前没有赠送的产品。</p>
+          <p className="no-products">
+            目前暂无赠送商品，先看看二手精选吧！
+          </p>
         )}
       </div>
     </div>
