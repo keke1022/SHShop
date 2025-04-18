@@ -2,9 +2,9 @@
   {
     "id": 1,
     "name": "次卧转租!",
-    "price": 750,
+    "price": 600,
     "shortDescription": "安娜堡北校好房转租",
-    "longDescription": "🔥【性价比爆棚】Willowtree Apartment 2B1B次卧暑期转租 🔥\n\n🗓 时间：2024/5/10 - 2024/7/31\n💰 租金：原价1079，现价仅750/月，包水气，网电另算\n📍 地址：1861 Shirley Lane\n📱 微信联系：j1600882808\n\n🚍 交通便利：公寓门口即是公交站（23/65路），15分钟直达中校，步行10-15分钟可达北校各大教学楼\n\n🍜 吃喝玩乐：10分钟内步行可达：Burger One、Mochinut、CoCo奶茶、NoThai、Nagomi、Saica、鸿运中餐；12分钟到北校NCRB健身中心；17分钟到Kroger、Way One中国超市、Moge Tee、麦当劳、Evergreen中餐\n\n🏠 公寓配置：一楼方便搬家，暑期独享整间，安静舒适；全套家具+生活用品（床、床垫、桌椅、厨具、电器、吸尘器等应有尽有）；小区配套：健身房、篮球场、网球场、游泳池、免费停车、物业可代收快递.",
+    "longDescription": "🔥【性价比爆棚】Willowtree Apartment 2B1B次卧暑期转租 🔥\n\n🗓 时间：2024/5/10 - 2024/7/31\n💰 租金：原价1079，现价仅600/月，包水气，网电另算\n📍 地址：1861 Shirley Lane\n📱 微信联系：j1600882808\n\n🚍 交通便利：公寓门口即是公交站（23/65路），15分钟直达中校，步行10-15分钟可达北校各大教学楼\n\n🍜 吃喝玩乐：10分钟内步行可达：Burger One、Mochinut、CoCo奶茶、NoThai、Nagomi、Saica、鸿运中餐；12分钟到北校NCRB健身中心；17分钟到Kroger、Way One中国超市、Moge Tee、麦当劳、Evergreen中餐\n\n🏠 公寓配置：一楼方便搬家，暑期独享整间，安静舒适；全套家具+生活用品（床、床垫、桌椅、厨具、电器、吸尘器等应有尽有）；小区配套：健身房、篮球场、网球场、游泳池、免费停车、物业可代收快递.",
     "image": "/images/house.jpeg",
     "gallery": ["/images/house.jpeg", "/images/apartment.jpg"]
   },
@@ -28,12 +28,12 @@
   },
   {
     "id": 4,
-    "name": "Target台灯",
-    "price": 5,
-    "shortDescription": "小巧高亮",
-    "longDescription": "外观小巧不占地，但灯泡亮度非常给力，学习办公都适用。",
-    "image": "/images/lamp.jpeg",
-    "gallery": ["/images/lamp.jpeg"]
+    "name": "IKEA 垃圾桶",
+    "price": 1,
+    "shortDescription": "简约实用的垃圾桶",
+    "longDescription": "IKEA 经典款，塑料材质，容量适中。",
+    "image": "/images/bin.jpeg",
+    "gallery": ["/images/bin.jpeg"]
   },
   {
     "id": 5,
@@ -46,8 +46,8 @@
   },
   {
     "id": 6,
-    "name": "电视",
-    "price": 120,
+    "name": "50inch电视",
+    "price": 100,
     "shortDescription": "打游戏神器! 双影奇境同屏神器!",
     "longDescription": "电视可连HDMI当显示器用，打游戏体验一流。电视柜九成新，可打包也可分开出。",
     "image": "/images/TV.jpeg",
@@ -56,9 +56,9 @@
   {
     "id": 7,
     "name": "自行车",
-    "price": 150,
+    "price": 130,
     "shortDescription": "变速顺畅，维护良好",
-    "longDescription": "暑假购入，珍惜使用。车况极佳，24档变速（3*8），链条已更换过一次。",
+    "longDescription": "暑假购入，珍惜使用。车况良好，24档变速（3*8），链条已更换过一次。",
     "image": "/images/bicycle.jpeg",
     "gallery": ["/images/bicycle.jpeg"]
   },
@@ -88,15 +88,6 @@
     "longDescription": "HDMI 转 DP 单向数据线，仅支持 HDMI 输出 → DP 显示输入，注意方向！",
     "image": "/images/hdmidp.jpeg",
     "gallery": ["/images/hdmidp.jpeg"]
-  },
-  {
-    "id": 11,
-    "name": "基础键盘",
-    "price": 0,
-    "shortDescription": "塑料敲击梦想启动器",
-    "longDescription": "极简风基础键盘，适合托福备考、盲打训练、或者你临时找不到键盘的时候救急使用。功能正常，外观朴素。",
-    "image": "/images/kb.jpeg",
-    "gallery": ["/images/kb.jpeg"]
   },
   {
     "id": 12,
@@ -160,5 +151,14 @@
     "longDescription": "普通液体胶水，剪纸、修作业本、拼贴灵感板都能用。粘性正常，非工业强度",
     "image": "/images/glue.jpeg",
     "gallery": ["/images/glue.jpeg"]
+  },
+  {
+    "id": 19,
+    "name": "落地灯",
+    "price": 2,
+    "shortDescription": "适合临时使用",
+    "longDescription": "外观简洁, 使用正常. 有瑕疵, 打开灯后会有很小的声音",
+    "image": "/images/lamp.jpeg",
+    "gallery": ["/images/lamp.jpeg"]
   }
 ]

@@ -24,9 +24,21 @@ function HomePage() {
 
   return (
     <div className="page-container">
-      <h1 className="main-title">🛍 Willowtree 清仓宝库</h1>
+      <h1 className="main-title">
+        <img
+          src="https://raw.githubusercontent.com/keke1022/picgo/main/pic/202504181529805.png"
+          alt=""
+          style={{
+            width: "1.2em",
+            verticalAlign: "middle",
+            marginRight: "0.3em",
+          }}
+        />
+        Willowtree 清仓
+      </h1>
       <p className="description">
-        微信：<strong>j1600882808</strong> ｜持续更新｜支持小刀，最好自取, 越晚越便宜，机会难得！
+        微信：<strong>j1600882808</strong> ｜持续更新｜支持小刀，最好自取,
+        越晚越便宜，机会难得！
       </p>
 
       {/* 价格过滤滑条 */}
@@ -111,9 +123,7 @@ function HomePage() {
             ))}
           </div>
         ) : (
-          <p className="no-products">
-            目前暂无赠送商品，先看看二手精选吧！
-          </p>
+          <p className="no-products">目前暂无赠送商品，先看看二手精选吧！</p>
         )}
       </div>
     </div>
