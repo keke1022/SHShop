@@ -2,9 +2,9 @@
   {
     "id": 1,
     "name": "次卧转租!",
-    "price": 600,
+    "price": 500,
     "shortDescription": "安娜堡北校好房转租",
-    "longDescription": "🔥【性价比爆棚】Willowtree Apartment 2B1B次卧暑期转租 🔥\n\n🗓 时间：2024/5/10 - 2024/7/31\n💰 租金：原价1079，现价仅600/月，包水气，网电另算\n📍 地址：1861 Shirley Lane\n📱 微信联系：j1600882808\n\n🚍 交通便利：公寓门口即是公交站（23/65路），15分钟直达中校，步行10-15分钟可达北校各大教学楼\n\n🍜 吃喝玩乐：10分钟内步行可达：Burger One、Mochinut、CoCo奶茶、NoThai、Nagomi、Saica、鸿运中餐；12分钟到北校NCRB健身中心；17分钟到Kroger、Way One中国超市、Moge Tee、麦当劳、Evergreen中餐\n\n🏠 公寓配置：一楼方便搬家，暑期独享整间，安静舒适；全套家具+生活用品（床、床垫、桌椅、厨具、电器、吸尘器等应有尽有）；小区配套：健身房、篮球场、网球场、游泳池、免费停车、物业可代收快递.",
+    "longDescription": "🔥【性价比爆棚】Willowtree Apartment 2B1B次卧暑期转租 🔥\n\n🗓 时间：2024/5/10 - 2024/7/31\n💰 租金：原价1079，现价仅500/月，包水气，网电另算\n📍 地址：1861 Shirley Lane\n📱 微信联系：j1600882808\n\n🚍 交通便利：公寓门口即是公交站（23/65路），15分钟直达中校，步行10-15分钟可达北校各大教学楼\n\n🍜 吃喝玩乐：10分钟内步行可达：Burger One、Mochinut、CoCo奶茶、NoThai、Nagomi、Saica、鸿运中餐；12分钟到北校NCRB健身中心；17分钟到Kroger、Way One中国超市、Moge Tee、麦当劳、Evergreen中餐\n\n🏠 公寓配置：一楼方便搬家，暑期独享整间，安静舒适；全套家具+生活用品（床、床垫、桌椅、厨具、电器、吸尘器等应有尽有）；小区配套：健身房、篮球场、网球场、游泳池、免费停车、物业可代收快递.",
     "image": "/images/house.jpeg",
     "gallery": ["/images/house.jpeg", "/images/apartment.jpg"]
   },
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "PS5手柄",
-    "price": 40,
+    "price": 35,
     "shortDescription": "原装手柄，手感顺滑",
     "longDescription": "PS5 原装 DualSense 手柄，按键灵敏，震动细腻，几乎全新。支持蓝牙连接。",
     "image": "/images/controller.jpeg",
@@ -119,7 +119,7 @@
   {
     "id": 15,
     "name": "电音蝌蚪",
-    "price": 25,
+    "price": 20,
     "shortDescription": "Otamatone入门神器",
     "longDescription": "Otamatone电音蝌蚪，可以发出各种奇妙声音。能演奏简单旋律，也可教学",
     "image": "/images/otamatone.jpeg",
@@ -160,5 +160,32 @@
     "longDescription": "外观简洁, 使用正常. 有瑕疵, 打开灯后会有很小的声音",
     "image": "/images/lamp.jpeg",
     "gallery": ["/images/lamp.jpeg"]
+  },
+  {
+    "id": 20,
+    "name": "L形书桌(4.29可出)",
+    "price": 20,
+    "shortDescription": "超实用转角书桌，适合宿舍/小公寓，高性价比神器！",
+    "longDescription": "L形书桌节省空间的同时提供超大操作面积，键盘+显示器+台灯+猫都能放下。结构稳固，木纹质感干净利落，适合学习、熬夜追DDL (不是",
+    "image": "/images/desk.jpg",
+    "gallery": ["/images/desk.jpg", "/images/desk1.jpg"]
+  },
+  {
+    "id": 21,
+    "name": "4K60Hz 28寸显示器, mac很适合!(5月出)",
+    "price": 100,
+    "shortDescription": "色彩细腻、刷新流畅，MacBook直连无压力",
+    "longDescription": "4K 显示器支持 60Hz 刷新率，适配 macOS，眼睛舒服。显示清晰，色彩精准，打代码、看视频都稳。",
+    "image": "/images/display.jpg",
+    "gallery": ["/images/display.jpg", "/images/display1.jpg"]
+  },
+  {
+    "id": 22,
+    "name": "充电台灯",
+    "price": 4,
+    "shortDescription": "多档白光, USB充电, 收纳方便",
+    "longDescription": "充电台灯，USB充电，白光多档调节。",
+    "image": "/images/lamp1.jpeg",
+    "gallery": ["/images/lamp1.jpeg", "/images/lamp2.jpeg", "/images/lamp3.jpeg"]
   }
 ]
