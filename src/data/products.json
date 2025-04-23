@@ -103,7 +103,7 @@
     "name": "Chiikawa贴纸",
     "price": 0,
     "shortDescription": "免费贴纸大放送",
-    "longDescription": "Chiikawa 可爱贴纸若干，角色控自取，只图可爱。",
+    "longDescription": "Chiikawa 可爱贴纸若干。",
     "image": "/images/chiikawa.jpeg",
     "gallery": ["/images/chiikawa.jpeg"]
   },
@@ -187,5 +187,23 @@
     "longDescription": "充电台灯，USB充电，白光多档调节。",
     "image": "/images/lamp1.jpeg",
     "gallery": ["/images/lamp1.jpeg", "/images/lamp2.jpeg", "/images/lamp3.jpeg"]
+  },
+  {
+    "id": 23,
+    "name": "火锅+底座",
+    "price": 5,
+    "shortDescription": "有点老了, 介意勿拍",
+    "longDescription": "火锅，使用一年以上，成色较差。但是绝对干净，可以放心使用。",
+    "image": "/images/hotpot.jpeg",
+    "gallery": ["/images/hotpot.jpeg"]
+  },
+  {
+    "id": 24,
+    "name": "空气炸锅",
+    "price": 15,
+    "shortDescription": "健康烹饪神器",
+    "longDescription": "无需大量油就能做出酥脆口感，适合炸薯条、鸡翅、蔬菜等。操作简单，清洗方便。使用一年以上，成色良好。",
+    "image": "/images/airfryer.jpeg",
+    "gallery": ["/images/airfryer.jpeg"]
   }
 ]
