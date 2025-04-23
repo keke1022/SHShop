@@ -37,8 +37,8 @@ function HomePage() {
         Willowtree 清仓
       </h1>
       <p className="description">
-        微信：<strong>j1600882808</strong> ｜持续更新｜支持小刀，最好自取,
-        越晚越便宜，机会难得！
+        微信：<strong>j1600882808</strong> ｜持续更新｜支持小刀，最好来wt自取,
+        越晚越便宜！
       </p>
 
       {/* 价格过滤滑条 */}
