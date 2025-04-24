@@ -1,135 +1,366 @@
-/* 整体页面容器 */
+/* Game-themed CSS with retro pixel art style */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Basic reset and pixel-perfect rendering */
+* {
+  image-rendering: pixelated;
+  box-sizing: border-box;
+}
+
+/* Game background and container */
 .page-container {
-    padding: 20px;
-    text-align: center;
+  padding: 20px;
+  text-align: center;
+  background-color: #2a2a2a;
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAABhklEQVR4nO3aS07DMBhA4YM6bV3AgpXL/a9BYgFdAV1Ai8oGWtryGIwHsOE/H0dKreQsEsmfXduJxX3FMAwP8zy/xXF8oZS+9n3/KaX8rKqqu67rXO1caJHneSpKy7Is27Zti6IoUil9HMfxQUp5X9f1e5IkH2mafsZx/D0MwxdjzJMx5nYpgCRJFmH79uKcGWM6KeVHWZYvTdM8d113lef5s3OuddbGGMdae5MkiTHGbLZBa/XCOUeUUlQpRY0xlHOOaq3pdrt1bdv+7fU353zTNFHOOaqUIkop6pzj0zTx4/H461r9SzRN83A6nW5OpdG2LRVCUCllA2itqRDyDHDOUa31ImwBx+PRpWlKhRC0KIpzAOccNcZQrTXVWjcAKeUZoJSiWmtqrW0ASZKcAfv93nVdR7XWVBRFA8jz/Azous4dDoeGsNvtGkBVVWfA4XBwu92OFkXRAOq6XlxCQgjatu0ZsNvt2Ol0agB1XdO+7xelX5YlbZqGtm3LAK/vB0w8Ag/AA/AAPIDAIvAXp39tAQQK+PAAAAAASUVORK5CYII=');
+}
+
+/* Game title */
+.main-title {
+  font-size: 2.5em;
+  color: #FFC107;
+  text-shadow: 4px 4px 0 #000;
+  margin-bottom: 20px;
+  animation: pulse 2s infinite;
+  letter-spacing: 2px;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+/* Game description */
+.description {
+  font-size: 0.8em;
+  color: #E0E0E0;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 0 #000;
+  line-height: 1.6;
+}
+
+/* Price filter - game slider */
+.price-filter {
+  background-color: #3F3F3F;
+  padding: 15px;
+  border-radius: 10px;
+  border: 4px solid #FFC107;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0 0 10px rgba(255, 193, 7, 0.5);
+}
+
+.price-filter label {
+  font-size: 0.8em;
+  margin-right: 10px;
+  color: #FFF;
+}
+
+.price-filter input[type="range"] {
+  height: 15px;
+  appearance: none;
+  background: #1E1E1E;
+  border: 2px solid #FFC107;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 10px;
+}
+
+.price-filter input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #FFC107;
+  border: 2px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Game navigation */
+.navigation {
+  background-color: #000;
+  padding: 15px;
+  margin: 30px auto;
+  max-width: 400px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  border: 4px solid #4CAF50;
+  box-shadow: 0 0 15px rgba(76, 175, 80, 0.6);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #4CAF50;
+  font-size: 0.9em;
+  padding: 10px 15px;
+  border: 2px solid #4CAF50;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  text-shadow: 1px 1px 0 #000;
+}
+
+.nav-link:hover {
+  background-color: #4CAF50;
+  color: #000;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #4CAF50;
+}
+
+/* Game sections */
+.section {
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 5px solid #555;
+  animation: borderPulse 3s infinite;
+}
+
+@keyframes borderPulse {
+  0% { border-color: #555; }
+  50% { border-color: #888; }
+  100% { border-color: #555; }
+}
+
+/* Section titles with game icons */
+.section-title {
+  font-size: 1.5em;
+  color: #FF5722;
+  margin-bottom: 25px;
+  text-shadow: 3px 3px 0 #000;
+  letter-spacing: 1px;
+}
+
+/* Product card grid */
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  justify-content: center;
+}
+
+/* Item cards like inventory items */
+.product-card {
+  width: 100%;
+  border: 5px solid #444;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  background-color: #333;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  position: relative;
+  overflow: hidden;
+}
+
+.product-card::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border: 2px dashed transparent;
+  border-radius: 12px;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+  border-color: #FFC107;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7);
+}
+
+.product-card:hover::before {
+  border-color: #FFC107;
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Product images */
+.product-image {
+  width: 100%;
+  border-radius: 5px;
+  border: 3px solid #555;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.product-card:hover .product-image {
+  border-color: #FFC107;
+  transform: scale(1.05);
+}
+
+/* Product name */
+.product-name {
+  color: #FFF;
+  margin-top: 15px;
+  font-size: 1em;
+  text-shadow: 2px 2px 0 #000;
+}
+
+/* Product description */
+.short-description {
+  color: #AAA;
+  font-size: 0.7em;
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+/* Price */
+.price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #FFC107;
+  text-shadow: 2px 2px 0 #000;
+  margin: 10px 0;
+}
+
+/* View detail button */
+.detail-link {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  background-color: #FFC107;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 0.7em;
+  border: 3px solid #000;
+  transition: all 0.2s ease;
+  box-shadow: 3px 3px 0 #000;
+}
+
+.detail-link:hover {
+  transform: translateY(-3px);
+  box-shadow: 5px 5px 0 #000;
+}
+
+.detail-link:active {
+  transform: translateY(0);
+  box-shadow: 1px 1px 0 #000;
+}
+
+/* No products message */
+.no-products {
+  color: #FF5252;
+  font-size: 0.9em;
+  text-shadow: 2px 2px 0 #000;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px dashed #FF5252;
+  display: inline-block;
+}
+
+/* Add these new styles for game-specific elements */
+
+/* Game header with title and stats */
+.game-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.game-stats {
+  display: none;
+}
+
+.score-counter {
+  display: none;
+}
+
+/* Pixel art icons */
+.pixel-icon {
+  display: inline-block;
+  font-size: 1.1em;
+  margin-right: 5px;
+  image-rendering: pixelated;
+  animation: bounce 0.5s ease infinite alternate;
+}
+
+@keyframes bounce {
+  from { transform: translateY(0); }
+  to { transform: translateY(-3px); }
+}
+
+/* Hover effect for product images */
+.img-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product-card:hover .image-overlay {
+  opacity: 1;
+}
+
+.click-me {
+  background-color: #FFC107;
+  color: #000;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  border: 2px solid #000;
+  animation: pulse 1s infinite;
+}
+
+/* Highlight text */
+.highlight {
+  color: #FFC107;
+  text-shadow: 2px 2px 0 #000;
+  font-weight: bold;
+}
+
+/* Game controls at bottom */
+.game-controls {
+  display: none;
+}
+
+.power-button {
+  display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .game-stats {
+    flex-direction: column;
+    gap: 10px;
   }
   
-  /* 页面标题 */
-  .main-title {
-    font-size: 2em;
-    color: #333;
+  .level-badge, .score-counter {
+    font-size: 0.7em;
   }
   
-  /* 简介文字 */
-  .description {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 20px;
-  }
-  
-  /* 触发器按钮，如果需要打开可以取消注释按钮内联样式的删除，此处样式提供参考 */
-  .trigger-button {
-    margin-bottom: 20px;
-    padding: 8px 15px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  /* 导航条样式 */
-  .navigation {
-    background-color: #f8f9fa;
-    padding: 10px;
-    margin: 20px auto;
-    max-width: 400px;
-    border-radius: 8px;
-    display: flex;
-    justify-content: space-around;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .nav-link {
-    text-decoration: none;
-    color: #007bff;
-    font-size: 18px;
-    padding: 8px 12px;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    transition: background-color 0.3s ease, border-color 0.3s ease;
-  }
-  
-  .nav-link:hover {
-    background-color: #007bff;
-    color: #fff;
-    border-color: #007bff;
-  }
-  
-  /* 各区域容器 */
-  .section {
-    margin-top: 40px;
-  }
-  
-  /* 区域标题 */
-  .section-title {
-    font-size: 1.5em;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  /* 产品展示容器 */
   .product-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   }
-  
-  /* 产品卡片样式 */
-  .product-card {
-    width: 220px;
-    border: 2px solid #ddd;
-    border-radius: 10px;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    transition: transform 0.2s ease-in-out;
-    cursor: pointer;
-  }
-  
-  /* 鼠标悬停时效果 */
-  .product-card:hover {
-    transform: scale(1.05);
-  }
-  
-  /* 产品图片样式 */
-  .product-image {
-    width: 100%;
-    border-radius: 8px;
-  }
-  
-  /* 产品名称 */
-  .product-name {
-    color: #333;
-    margin-top: 10px;
-  }
-  
-  /* 简短描述 */
-  .short-description {
-    color: #888;
-    font-size: 14px;
-  }
-  
-  /* 价格样式 */
-  .price {
-    font-size: 18px;
-    font-weight: bold;
-    color: #ff5500;
-  }
-  
-  /* 详情链接 */
-  .detail-link {
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    background-color: #ff6600;
-    padding: 8px 15px;
-    border-radius: 5px;
-    margin-top: 10px;
-    font-weight: bold;
-  }
-  
-  /* 无赠送产品时的提示 */
-  .no-products {
-    color: #888;
-    font-size: 16px;
-  }
+}

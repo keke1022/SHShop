@@ -1,118 +1,150 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import products from "../data/products.json";
+import "./DetailPage.css";
 
 function DetailPage() {
   const { id } = useParams();
   const product = products.find((p) => p.id === parseInt(id));
+  const [selectedImg, setSelectedImg] = useState(0);
+  const [showAchievement, setShowAchievement] = useState(false);
+
+  // Show achievement notification
+  useEffect(() => {
+    // Show achievement notification after 2 seconds
+    setTimeout(() => {
+      setShowAchievement(true);
+      // Hide it after 4 seconds
+      setTimeout(() => setShowAchievement(false), 4000);
+    }, 2000);
+  }, []);
+
+  const handleImageClick = (index) => {
+    setSelectedImg(index);
+  };
 
   if (!product) {
     return (
-      <div style={{ textAlign: "center", padding: "20px" }}>
-        <h2 style={{ color: "red" }}>⚠️Not found！</h2>
-        <p>可能已经被抢走了，出手还是要快！</p>
-        <Link
-          to="/"
-          style={{
-            display: "inline-block",
-            textDecoration: "none",
-            backgroundColor: "#ff6600",
-            color: "#fff",
-            padding: "10px 15px",
-            borderRadius: "5px",
-            fontWeight: "bold",
-          }}
-        >
-          ⬅ 回到主页看看别的好物
+      <div className="game-error-screen">
+        <h2 className="error-title">⚠️ GAME OVER ⚠️</h2>
+        <p className="error-message">物品不存在或已被其他玩家获取！</p>
+        <div className="pixel-character">
+          😢
+        </div>
+        <Link to="/" className="return-button">
+          ⬅ 返回主城
         </Link>
       </div>
     );
   }
 
+  // 使用product对象中的quality属性，如果不存在则默认为3
+  const quality = product.quality || 3;
+
   return (
-    <div style={{ padding: "20px", maxWidth: "800px", margin: "auto" }}>
+    <div className="game-detail-container">
+      {/* Achievements popup */}
+      {showAchievement && (
+        <div className="achievement-popup">
+          <div className="achievement-icon">🏆</div>
+          <div className="achievement-text">
+            <div className="achievement-title">成就解锁!</div>
+            <div className="achievement-desc">你发现了新物品: {product.name}</div>
+          </div>
+        </div>
+      )}
 
-      <Link
-        to="/"
-        style={{
-          display: "inline-block",
-          textDecoration: "none",
-          backgroundColor: "#ff6600",
-          color: "#fff",
-          padding: "10px 15px",
-          borderRadius: "5px",
-          fontWeight: "bold",
-        }}
-      >
-        ⬅ Return
-      </Link>
+      <div className="game-nav-bar">
+        <Link to="/" className="back-button">
+          ⬅ 返回
+        </Link>
+      </div>
 
-      <h1
-        style={{
-          color: "#333",
-          textAlign: "center",
-          marginTop: "20px",
-        }}
-      >
-        {product.name}
-      </h1>
+      <div className="item-spotlight">
+        <h1 className="item-title">{product.name}</h1>
+        
+        <div className="item-rating">
+          <p className="item-price">
+            产品质量
+          </p>
+          {[...Array(5)].map((_, i) => (
+            <span key={i} className={i < quality ? "star filled" : "star"}>★</span>
+          ))}
+          <span className="item-rarity">
+            {product.price > 30 ? 'RARE' : 'COMMON'}
+          </span>
+        </div>
 
-      <p
-        style={{
-          fontSize: "24px",
-          fontWeight: "bold",
-          color: "#ff5500",
-          textAlign: "center",
-        }}
-      >
-        Price: {`💲${product.price}`}
-      </p>
+        <p className="item-price">
+          <span className="price-icon">💰</span> {product.price} 金币
+        </p>
+      </div>
 
-      <h3 style={{ color: "#444", marginTop: "30px", marginBottom: "10px" }}>
-        📦 商品详情
-      </h3>
+      <div className="item-container">
+        <div className="item-gallery">
+          <div className="main-image-container">
+            <img 
+              src={`${process.env.PUBLIC_URL}/${product.gallery[selectedImg]}`}
+              alt={product.name}
+              className="main-item-image"
+            />
+          </div>
+          
+          {product.gallery.length > 1 && (
+            <div className="thumbnail-container">
+              {product.gallery.map((img, index) => (
+                <div 
+                  key={index} 
+                  className={`thumbnail ${selectedImg === index ? 'active' : ''}`}
+                  onClick={() => handleImageClick(index)}
+                >
+                  <img 
+                    src={`${process.env.PUBLIC_URL}/${img}`}
+                    alt={`Thumbnail ${index + 1}`}
+                  />
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
 
-      <p
-        style={{
-          color: "#666",
-          fontSize: "16px",
-          lineHeight: "1.6",
-          textAlign: "justify",
-          marginBottom: "20px",
-          whiteSpace: "pre-line",
-        }}
-      >
-        {product.longDescription}
-      </p>
+        <div className="item-details">
+          <div className="details-panel">
+            <h3 className="panel-title">
+              <span className="panel-icon">📦</span> 物品详情
+            </h3>
+            <p className="item-description">{product.longDescription}</p>
+          </div>
 
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-          gap: "15px",
-          justifyContent: "center",
-          padding: "10px",
-        }}
-      >
-        {product.gallery.map((img, index) => (
-          <img
-            key={index}
-            src={`${process.env.PUBLIC_URL}/${img}`}
-            alt="Wait for the Product"
-            width="100%"
-            style={{
-              borderRadius: "10px",
-              boxShadow: "2px 2px 10px rgba(0,0,0,0.1)",
-              transition: "transform 0.2s ease-in-out",
-            }}
-            onMouseOver={(e) =>
-              (e.currentTarget.style.transform = "scale(1.05)")
-            }
-            onMouseOut={(e) =>
-              (e.currentTarget.style.transform = "scale(1)")
-            }
-          />
-        ))}
+          <div className="item-stats">
+            <div className="stat">
+              <span className="stat-label">品质:</span>
+              <div className="stat-value">
+                <div className="stat-bar">
+                  <div 
+                    className="stat-fill"
+                    style={{ width: `${quality * 20}%` }}
+                  ></div>
+                </div>
+              </div>
+            </div>
+            <div className="stat">
+              <span className="stat-label">稀有度:</span>
+              <div className="stat-value">
+                <div className="stat-bar">
+                  <div 
+                    className="stat-fill"
+                    style={{ width: `${Math.min(product.price / 2, 100)}%` }}
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div className="contact-info">
+            与商人联系: <strong>j1600882808</strong> (微信)
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -4,10 +4,10 @@ import products from "../data/products.json";
 import "./HomePage.css";
 
 function HomePage() {
-  // 定义价格过滤器状态，初始值设为30
+  // 游戏风格的价格过滤器
   const [priceFilter, setPriceFilter] = useState(999);
 
-  // 假设滑条最大值为100，根据需求也可以动态计算
+  // 假设滑条最大值为999
   const maxPriceFilter = 999;
 
   // 过滤出价格大于0且低于等于 priceFilter 的二手商品
@@ -24,27 +24,24 @@ function HomePage() {
 
   return (
     <div className="page-container">
-      <h1 className="main-title">
-        <img
-          src="https://raw.githubusercontent.com/keke1022/picgo/main/pic/202504181529805.png"
-          alt=""
-          style={{
-            width: "1.2em",
-            verticalAlign: "middle",
-            marginRight: "0.3em",
-          }}
-        />
-        Willowtree 清仓
-      </h1>
+      {/* 游戏风格标题 */}
+      <div className="game-header">
+        <h1 className="main-title">
+          Willowtree 清仓
+        </h1>
+      </div>
+
       <p className="description">
-        微信：<strong>j1600882808</strong> ｜持续更新｜支持小刀，最好来wt自取,
-        越晚越便宜！
+        <span className="pixel-icon">📱</span> 微信：<strong>j1600882808</strong> ｜
+        <span className="pixel-icon">🔄</span> 持续更新｜
+        <span className="pixel-icon">💰</span> 支持小刀，
+        <span className="highlight">最好来wt自取, 越晚越便宜！</span>
       </p>
 
-      {/* 价格过滤滑条 */}
+      {/* 价格过滤器游戏控制板 */}
       <div className="price-filter">
-        <label htmlFor="priceRange" style={{ marginRight: "10px" }}>
-          仅显示价格低于：${priceFilter}
+        <label htmlFor="priceRange">
+          <span className="pixel-icon">⚙️</span> 价格上限：${priceFilter}
         </label>
         <input
           id="priceRange"
@@ -56,74 +53,101 @@ function HomePage() {
         />
       </div>
 
+      {/* 导航区块 */}
       <div className="navigation">
         <a href="#second-hand" className="nav-link">
-          二手区
+          <span className="pixel-icon">🛒</span> 二手区
         </a>
         <a href="#donation" className="nav-link">
-          赠送区
+          <span className="pixel-icon">🎁</span> 赠送区
         </a>
       </div>
 
       {/* 二手区 */}
       <div id="second-hand" className="section">
-        <h2 className="section-title">🛒 二手精选</h2>
+        <h2 className="section-title">
+          <span className="pixel-icon">🛒</span> 二手精选
+        </h2>
         {secondHandProducts.length > 0 ? (
           <div className="product-container">
             {secondHandProducts.map((product) => (
-              <div key={product.id} className="product-card">
+              <div 
+                key={product.id} 
+                className="product-card"
+              >
                 <Link to={`/product/${product.id}`}>
-                  <img
-                    src={`${process.env.PUBLIC_URL}/${product.image}`}
-                    alt={product.name}
-                    className="product-image"
-                  />
+                  <div className="img-container">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/${product.image}`}
+                      alt={product.name}
+                      className="product-image"
+                    />
+                    <div className="image-overlay">
+                      <span className="click-me">CLICK</span>
+                    </div>
+                  </div>
                 </Link>
                 <h3 className="product-name">{product.name}</h3>
                 <p className="short-description">
                   {product.shortDescription || "暂无描述，点进来或许有惊喜"}
                 </p>
-                <p className="price">💰 价格：${product.price}</p>
+                <p className="price">
+                  <span className="pixel-icon">💰</span> 价格：${product.price}
+                </p>
                 <Link to={`/product/${product.id}`} className="detail-link">
-                  🔍 查看详情
+                  <span className="pixel-icon">🔍</span> 查看详情
                 </Link>
               </div>
             ))}
           </div>
         ) : (
           <p className="no-products">
-            没有找到符合条件的商品，试试调高筛选价格！
+            <span className="pixel-icon">❌</span> 没有找到符合条件的商品，试试调高筛选价格！
           </p>
         )}
       </div>
 
       {/* 赠送区 */}
       <div id="donation" className="section">
-        <h2 className="section-title">🎁 免费赠送</h2>
+        <h2 className="section-title">
+          <span className="pixel-icon">🎁</span> 免费赠送
+        </h2>
         {donationProducts.length > 0 ? (
           <div className="product-container">
             {donationProducts.map((product) => (
-              <div key={product.id} className="product-card">
+              <div 
+                key={product.id} 
+                className="product-card"
+              >
                 <Link to={`/product/${product.id}`}>
-                  <img
-                    src={`${process.env.PUBLIC_URL}/${product.image}`}
-                    alt={product.name}
-                    className="product-image"
-                  />
+                  <div className="img-container">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/${product.image}`}
+                      alt={product.name}
+                      className="product-image"
+                    />
+                    <div className="image-overlay">
+                      <span className="click-me">FREE</span>
+                    </div>
+                  </div>
                 </Link>
                 <h3 className="product-name">{product.name}</h3>
                 <p className="short-description">
                   {product.shortDescription || "这商品免费，但品质依然在线"}
                 </p>
-                <p className="price">💰 价格：$0</p>
+                <p className="price">
+                  <span className="pixel-icon">💰</span> 价格：$0
+                </p>
                 <Link to={`/product/${product.id}`} className="detail-link">
-                  🔍 查看详情
+                  <span className="pixel-icon">🔍</span> 查看详情
                 </Link>
               </div>
             ))}
           </div>
         ) : (
-          <p className="no-products">目前暂无赠送商品，先看看二手精选吧！</p>
+          <p className="no-products">
+            <span className="pixel-icon">❌</span> 目前暂无赠送商品，先看看二手精选吧！
+          </p>
         )}
       </div>
     </div>

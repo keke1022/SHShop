@@ -6,52 +6,58 @@
     "shortDescription": "安娜堡北校好房转租",
     "longDescription": "🔥【性价比爆棚】Willowtree Apartment 2B1B次卧暑期转租 🔥\n\n🗓 时间：2024/5/10 - 2024/7/31\n💰 租金：原价1079，现价仅500/月，包水气，网电另算\n📍 地址：1861 Shirley Lane\n📱 微信联系：j1600882808\n\n🚍 交通便利：公寓门口即是公交站（23/65路），15分钟直达中校，步行10-15分钟可达北校各大教学楼\n\n🍜 吃喝玩乐：10分钟内步行可达：Burger One、Mochinut、CoCo奶茶、NoThai、Nagomi、Saica、鸿运中餐；12分钟到北校NCRB健身中心；17分钟到Kroger、Way One中国超市、Moge Tee、麦当劳、Evergreen中餐\n\n🏠 公寓配置：一楼方便搬家，暑期独享整间，安静舒适；全套家具+生活用品（床、床垫、桌椅、厨具、电器、吸尘器等应有尽有）；小区配套：健身房、篮球场、网球场、游泳池、免费停车、物业可代收快递.",
     "image": "/images/house.jpeg",
-    "gallery": ["/images/house.jpeg", "/images/apartment.jpg"]
+    "gallery": ["/images/house.jpeg", "/images/apartment.jpg"],
+    "quality": 5
   },
   {
     "id": 2,
     "name": "钢琴🎹",
     "price": 100,
     "shortDescription": "kulu同款创作琴",
-    "longDescription": "这不是普通的二手钢琴，这是kulu用过的钢琴。什么? 你问kulu是谁? 他是我的室友。他曾在这上面创作旋律，而你现在可以用它弹出属于自己的乐章。音色纯正，键盘顺手，适合练习、作曲或装点客厅艺术氛围。低价出，让它的第二人生继续发光。",
+    "longDescription": "【传奇装备】这不是普通的二手钢琴，这是由传说中的音乐大师kulu使用过的神秘乐器！每一个琴键都蕴含着独特的魔力，每一个音符都可能引发不可思议的灵感。据说kulu曾在这上面创作出数首震撼人心的旋律，而现在，这件宝物正在寻找新的主人。\n\n音色纯净如水晶，键盘触感如丝绸般顺滑，适合练习技能、创作新曲或为你的居所增添艺术气息。",
     "image": "/images/piano.jpeg",
-    "gallery": ["/images/piano.jpeg"]
+    "gallery": ["/images/piano.jpeg"],
+    "quality": 4
   },
   {
     "id": 3,
     "name": "PS5手柄",
     "price": 35,
     "shortDescription": "原装手柄，手感顺滑",
-    "longDescription": "PS5 原装 DualSense 手柄，按键灵敏，震动细腻，几乎全新。支持蓝牙连接。",
+    "longDescription": "【稀有控制器】PS5原装DualSense手柄，耐久度几乎满值！为你的游戏体验提供精准控制和身临其境的反馈。每个按键都经过无数次测试，震动反馈系统能让你感受到游戏世界的每一次脉动。支持蓝牙连接，可与多种设备配对。",
     "image": "/images/controller.jpeg",
-    "gallery": ["/images/controller.jpeg"]
+    "gallery": ["/images/controller.jpeg"],
+    "quality": 5
   },
   {
     "id": 4,
     "name": "IKEA 垃圾桶",
     "price": 1,
     "shortDescription": "简约实用的垃圾桶",
-    "longDescription": "IKEA 经典款，塑料材质，容量适中。",
+    "longDescription": "【基础物品收纳箱】来自瑞典工匠打造的IKEA经典款垃圾桶，坚固耐用的塑料材质，只需1金币即可带走这件实用道具，性价比极高！",
     "image": "/images/bin.jpeg",
-    "gallery": ["/images/bin.jpeg"]
+    "gallery": ["/images/bin.jpeg"],
+    "quality": 3
   },
   {
     "id": 5,
     "name": "投影仪",
-    "price": 60,
+    "price": 50,
     "shortDescription": "手机电脑可投屏",
     "longDescription": "配遥控器，支持手机/电脑投屏和iOS镜像。画质中等但足够日常观影。注意：画面不能自动矫正，放置位置需要稍高。",
     "image": "/images/projector.jpeg",
-    "gallery": ["/images/projector.jpeg"]
+    "gallery": ["/images/projector.jpeg"],
+    "quality": 3
   },
   {
     "id": 6,
     "name": "50inch电视",
     "price": 100,
     "shortDescription": "打游戏神器! 双影奇境同屏神器!",
-    "longDescription": "电视可连HDMI当显示器用，打游戏体验一流。电视柜九成新，可打包也可分开出。",
+    "longDescription": "电视可连HDMI当显示器用，电视显示效果优秀，色彩鲜艳逼真。",
     "image": "/images/TV.jpeg",
-    "gallery": ["/images/TV.jpeg"]
+    "gallery": ["/images/TV.jpeg"],
+    "quality": 3
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "shortDescription": "变速顺畅，维护良好",
     "longDescription": "暑假购入，珍惜使用。车况良好，24档变速（3*8），链条已更换过一次。",
     "image": "/images/bicycle.jpeg",
-    "gallery": ["/images/bicycle.jpeg"]
+    "gallery": ["/images/bicycle.jpeg"],
+    "quality": 4
   },
   {
     "id": 8,
@@ -69,16 +76,18 @@
     "shortDescription": "Target 杯刷",
     "longDescription": "Target牌杯刷，单个出售，实用小物。",
     "image": "/images/cupbrush.jpeg",
-    "gallery": ["/images/cupbrush.jpeg"]
+    "gallery": ["/images/cupbrush.jpeg"],
+    "quality": 5
   },
   {
     "id": 9,
-    "name": "理发刀套装",
-    "price": 5,
+    "name": "理发刀套装 x 2",
+    "price": 0,
     "shortDescription": "适合新手尝试",
-    "longDescription": "非常适合想自己剪头但不想投资太多的入门选手。便宜出，成就你的Tony梦。",
+    "longDescription": "非常适合想自己剪头但不想投资太多的入门选手。虽然成功需要一些练习和耐心，但想象一下省下的理发金币和获得的成就感吧",
     "image": "/images/haircut.jpeg",
-    "gallery": ["/images/haircut.jpeg"]
+    "gallery": ["/images/haircut.jpeg"],
+    "quality": 2
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@
     "shortDescription": "单向输出线，非双向",
     "longDescription": "HDMI 转 DP 单向数据线，仅支持 HDMI 输出 → DP 显示输入，注意方向！",
     "image": "/images/hdmidp.jpeg",
-    "gallery": ["/images/hdmidp.jpeg"]
+    "gallery": ["/images/hdmidp.jpeg"],
+    "quality": 3
   },
   {
     "id": 12,
@@ -96,7 +106,8 @@
     "shortDescription": "机械键盘，手感好",
     "longDescription": "兼容Mac/Win，段落感强，敲击声音适中。适合办公+轻度游戏，性价比高。",
     "image": "/images/keyboard.jpeg",
-    "gallery": ["/images/keyboard.jpeg"]
+    "gallery": ["/images/keyboard.jpeg"],
+    "quality": 4
   },
   {
     "id": 13,
@@ -105,7 +116,8 @@
     "shortDescription": "免费贴纸大放送",
     "longDescription": "Chiikawa 可爱贴纸若干。",
     "image": "/images/chiikawa.jpeg",
-    "gallery": ["/images/chiikawa.jpeg"]
+    "gallery": ["/images/chiikawa.jpeg"],
+    "quality": 5
   },
   {
     "id": 14,
@@ -114,7 +126,8 @@
     "shortDescription": "桌面整理小能手",
     "longDescription": "三个不同尺寸的小收纳盒，适合分类收纳文具、小物件，让桌面瞬间告别乱糟糟。",
     "image": "/images/container.jpeg",
-    "gallery": ["/images/container.jpeg"]
+    "gallery": ["/images/container.jpeg"],
+    "quality": 5
   },
   {
     "id": 15,
@@ -123,16 +136,18 @@
     "shortDescription": "Otamatone入门神器",
     "longDescription": "Otamatone电音蝌蚪，可以发出各种奇妙声音。能演奏简单旋律，也可教学",
     "image": "/images/otamatone.jpeg",
-    "gallery": ["/images/otamatone.jpeg"]
+    "gallery": ["/images/otamatone.jpeg"],
+    "quality": 4
   },
   {
     "id": 16,
     "name": "装饰品",
     "price": 0,
     "shortDescription": "圣诞元素，氛围神器",
-    "longDescription": "圣诞元素，氛围神器",
+    "longDescription": "【节日氛围魔法道具】这组圣诞主题装饰品能瞬间为你的空间注入节日气息",
     "image": "/images/decor.jpeg",
-    "gallery": ["/images/decor.jpeg"]
+    "gallery": ["/images/decor.jpeg"],
+    "quality": 3
   },
   {
     "id": 17,
@@ -141,7 +156,8 @@
     "shortDescription": "轻度使用，手感不错",
     "longDescription": "普通水杯，使用次数不多",
     "image": "/images/cup.jpeg",
-    "gallery": ["/images/cup.jpeg"]
+    "gallery": ["/images/cup.jpeg"],
+    "quality": 2
   },
   {
     "id": 18,
@@ -150,60 +166,47 @@
     "shortDescription": "适合手工、粘贴类任务",
     "longDescription": "普通液体胶水，剪纸、修作业本、拼贴灵感板都能用。粘性正常，非工业强度",
     "image": "/images/glue.jpeg",
-    "gallery": ["/images/glue.jpeg"]
-  },
-  {
-    "id": 19,
-    "name": "落地灯",
-    "price": 2,
-    "shortDescription": "适合临时使用",
-    "longDescription": "外观简洁, 使用正常. 有瑕疵, 打开灯后会有很小的声音",
-    "image": "/images/lamp.jpeg",
-    "gallery": ["/images/lamp.jpeg"]
+    "gallery": ["/images/glue.jpeg"],
+    "quality": 4
   },
   {
     "id": 20,
     "name": "L形书桌(4.29可出)",
     "price": 20,
     "shortDescription": "超实用转角书桌，适合宿舍/小公寓，高性价比神器！",
-    "longDescription": "L形书桌节省空间的同时提供超大操作面积，键盘+显示器+台灯+猫都能放下。结构稳固，木纹质感干净利落，适合学习、熬夜追DDL (不是",
+    "longDescription": "【稀有工作台】这张L形书桌是空间利用的终极解决方案！独特的转角设计让它能完美贴合墙角，为你节省宝贵的房间空间，同时提供超大的操作平台。",
     "image": "/images/desk.jpg",
-    "gallery": ["/images/desk.jpg", "/images/desk1.jpg"]
+    "gallery": ["/images/desk.jpg", "/images/desk1.jpg"],
+    "quality": 4
   },
   {
     "id": 21,
     "name": "4K60Hz 28寸显示器, mac很适合!(5月出)",
     "price": 100,
     "shortDescription": "色彩细腻、刷新流畅，MacBook直连无压力",
-    "longDescription": "4K 显示器支持 60Hz 刷新率，适配 macOS，眼睛舒服。显示清晰，色彩精准，打代码、看视频都稳。",
+    "longDescription": "【传说级视觉增强装置】这台28寸4K显示器将为你的视觉体验带来革命性提升！超高清分辨率让每一个像素都清晰可辨，60Hz刷新率确保画面流畅无比，完美适配macOS系统，插上即用无需复杂设置。",
     "image": "/images/display.jpg",
-    "gallery": ["/images/display.jpg", "/images/display1.jpg"]
+    "gallery": ["/images/display.jpg", "/images/display1.jpg"],
+    "quality": 5
   },
   {
     "id": 22,
-    "name": "充电台灯",
-    "price": 4,
-    "shortDescription": "多档白光, USB充电, 收纳方便",
-    "longDescription": "充电台灯，USB充电，白光多档调节。",
-    "image": "/images/lamp1.jpeg",
-    "gallery": ["/images/lamp1.jpeg", "/images/lamp2.jpeg", "/images/lamp3.jpeg"]
-  },
-  {
-    "id": 23,
-    "name": "火锅+底座",
+    "name": "鞋架",
     "price": 5,
-    "shortDescription": "有点老了, 介意勿拍",
-    "longDescription": "火锅，使用一年以上，成色较差。但是绝对干净，可以放心使用。",
-    "image": "/images/hotpot.jpeg",
-    "gallery": ["/images/hotpot.jpeg"]
+    "shortDescription": "平平无奇的鞋架",
+    "longDescription": "【简易装备整理架】这个貌似普通的鞋架其实是居家收纳的隐藏高手！虽然外表朴实无华，但其实用性却不容小觑。",
+    "image": "/images/shoes.JPG",
+    "gallery": ["/images/shoes.JPG"],
+    "quality": 2
   },
   {
     "id": 24,
     "name": "空气炸锅",
     "price": 12,
     "shortDescription": "健康烹饪神器",
-    "longDescription": "无需大量油就能做出酥脆口感，适合炸薯条、鸡翅、蔬菜等。操作简单，清洗方便。使用一年以上，成色良好。",
+    "longDescription": "【稀有烹饪装置】这台神奇的空气炸锅能让你在不使用大量油脂的情况下，创造出酥脆可口的美食！",
     "image": "/images/airfryer.jpeg",
-    "gallery": ["/images/airfryer.jpeg"]
+    "gallery": ["/images/airfryer.jpeg"],
+    "quality": 3
   }
 ]
