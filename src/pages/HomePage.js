@@ -6,20 +6,32 @@ import "./HomePage.css";
 function HomePage() {
   // 游戏风格的价格过滤器
   const [priceFilter, setPriceFilter] = useState(999);
+  // 排序方式
+  const [sortOrder, setSortOrder] = useState("desc");
 
   // 假设滑条最大值为999
   const maxPriceFilter = 999;
 
   // 过滤出价格大于0且低于等于 priceFilter 的二手商品
-  const secondHandProducts = products.filter(
-    (product) => product.price > 0 && product.price <= priceFilter
-  );
+  const secondHandProducts = products
+    .filter((product) => product.price > 0 && product.price <= priceFilter)
+    .sort((a, b) => {
+      if (sortOrder === "desc") {
+        return b.price - a.price;
+      } else {
+        return a.price - b.price;
+      }
+    });
 
   // 过滤出赠送商品，价格为0
   const donationProducts = products.filter((product) => product.price === 0);
 
   const handleSliderChange = (e) => {
     setPriceFilter(Number(e.target.value));
+  };
+
+  const handleSortChange = (e) => {
+    setSortOrder(e.target.value);
   };
 
   return (
@@ -51,6 +63,17 @@ function HomePage() {
           value={priceFilter}
           onChange={handleSliderChange}
         />
+      </div>
+
+      {/* 排序选项 */}
+      <div className="sort-filter">
+        <label htmlFor="sortOrder">
+          排序方式：
+        </label>
+        <select id="sortOrder" value={sortOrder} onChange={handleSortChange}>
+          <option value="desc">价格从高到低</option>
+          <option value="asc">价格从低到高</option>
+        </select>
       </div>
 
       {/* 导航区块 */}

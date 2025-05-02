@@ -218,5 +218,145 @@
     "image": "/images/shoes.JPG",
     "gallery": ["/images/shoes.JPG"],
     "quality": 2
+  },
+  {
+    "id": 23,
+    "name": "黑色茶几",
+    "price": 8,
+    "shortDescription": "简约现代茶几",
+    "longDescription": "【简约茶几】黑色茶几，简约现代设计。",
+    "image": "/images/chaji.jpeg",
+    "gallery": ["/images/chaji.jpeg"],
+    "quality": 4
+  },
+  {
+    "id": 24,
+    "name": "Target全身镜",
+    "price": 4,
+    "shortDescription": "全身镜",
+    "longDescription": "【全身镜】Target全身镜，镜面清晰，成像显高显瘦。",
+    "image": "/images/mirror.jpeg",
+    "gallery": ["/images/mirror.jpeg"],
+    "quality": 5
+  },
+  {
+    "id": 25,
+    "name": "衣架",
+    "price": 15,
+    "shortDescription": "多功能衣架",
+    "longDescription": "【多功能衣架】结实耐用的衣架，可挂放各类衣物。",
+    "image": "/images/yijia.jpeg",
+    "gallery": ["/images/yijia.jpeg"],
+    "quality": 3
+  },
+  {
+    "id": 26,
+    "name": "吸尘器",
+    "price": 15,
+    "shortDescription": "家用吸尘器",
+    "longDescription": "【清洁神器】家用吸尘器，吸力强劲，操作简单。适合清理地板、地毯等。",
+    "image": "/images/cleaner.jpeg",
+    "gallery": ["/images/cleaner.jpeg"],
+    "quality": 3
+  },
+  {
+    "id": 27,
+    "name": "9合1 Instant Pot",
+    "price": 25,
+    "shortDescription": "「有瑕疵」",
+    "longDescription": "【多功能料理锅】9合1 Instant Pot，有些使用痕迹，但功能完好。可煮饭、煲汤、炖肉等，是厨房好帮手。",
+    "image": "/images/pot.jpeg",
+    "gallery": ["/images/pot.jpeg"],
+    "quality": 3
+  },
+  {
+    "id": 28,
+    "name": "微波炉",
+    "price": 40,
+    "shortDescription": "价格待定",
+    "longDescription": "价格待定, 可加微信了解",
+    "image": "/images/microwave.jpeg",
+    "gallery": ["/images/microwave.jpeg"],
+    "quality": 4
+  },
+  {
+    "id": 29,
+    "name": "打蛋器",
+    "price": 15,
+    "shortDescription": "电动打蛋器",
+    "longDescription": "【烘焙神器】电动打蛋器，操作简单，打发效果好。适合制作蛋糕、奶油等，是烘焙爱好者的好帮手。",
+    "image": "/images/mixer.jpeg",
+    "gallery": ["/images/mixer.jpeg"],
+    "quality": 5
+  },
+  {
+    "id": 31,
+    "name": "搅拌机",
+    "price": 22,
+    "shortDescription": "很新! 几乎未使用",
+    "longDescription": "【多功能搅拌机】几乎全新的搅拌机，功能完好。可制作果汁、奶昔、酱料等，是厨房料理的好帮手。",
+    "image": "/images/mixer2.jpeg",
+    "gallery": ["/images/mixer2.jpeg"],
+    "quality": 5
+  },
+  {
+    "id": 32,
+    "name": "雀巢胶囊咖啡机",
+    "price": 60,
+    "shortDescription": "家用咖啡机",
+    "longDescription": "【咖啡神器】雀巢胶囊咖啡机，操作简单，可快速制作香浓咖啡。适合咖啡爱好者，让您在家也能享受专业咖啡。",
+    "image": "/images/coffee.jpeg",
+    "gallery": ["/images/coffee.jpeg"],
+    "quality": 2
+  },
+  {
+    "id": 33,
+    "name": "电子秤",
+    "price": 9,
+    "shortDescription": "很新",
+    "longDescription": "【精准电子秤】几乎全新的电子秤，测量精准，操作简单。适合称重食材、测量体重等。",
+    "image": "/images/scale.jpeg",
+    "gallery": ["/images/scale.jpeg"],
+    "quality": 5
+  },
+  {
+    "id": 34,
+    "name": "大架子",
+    "price": 18,
+    "shortDescription": "大型储物架",
+    "longDescription": "【大型储物架】结实耐用的大架子，可放置各类物品。适合放在客厅、卧室或储物间，提供充足的收纳空间。",
+    "image": "/images/bigcabinet.jpeg",
+    "gallery": ["/images/bigcabinet.jpeg"],
+    "quality": 3
+  },
+  {
+    "id": 35,
+    "name": "滤水壶",
+    "price": 13,
+    "shortDescription": "可更换滤芯",
+    "longDescription": "【净水神器】可更换滤芯的滤水壶，能有效过滤水中杂质，提供更纯净的饮用水。使用方便，维护简单。",
+    "image": "/images/water.jpeg",
+    "gallery": ["/images/water.jpeg"],
+    "quality": 3
+  },
+  {
+    "id": 36,
+    "name": "锅",
+    "price": 9,
+    "shortDescription": "很新",
+    "longDescription": "【厨房必备】材质优良，导热均匀。适合日常烹饪，是厨房不可或缺的工具。",
+    "image": "/images/pan.jpeg",
+    "gallery": ["/images/pan.jpeg"],
+    "quality": 3
+  },
+  {
+    "id": 37,
+    "name": "转椅",
+    "price": 6,
+    "shortDescription": "办公转椅",
+    "longDescription": "【办公转椅】可360度旋转。",
+    "image": "/images/chair.jpeg",
+    "gallery": ["/images/chair.jpeg"],
+    "quality": 2
   }
 ]
