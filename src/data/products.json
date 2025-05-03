@@ -12,7 +12,7 @@
   {
     "id": 2,
     "name": "钢琴🎹",
-    "price": 100,
+    "price": 50,
     "shortDescription": "kulu同款创作琴",
     "longDescription": "【传奇装备】这不是普通的二手钢琴，这是由传说中的音乐大师kulu使用过的神秘乐器！每一个琴键都蕴含着独特的魔力，每一个音符都可能引发不可思议的灵感。据说kulu曾在这上面创作出数首震撼人心的旋律，而现在，这件宝物正在寻找新的主人。\n\n音色纯净如水晶，键盘触感如丝绸般顺滑，适合练习技能、创作新曲或为你的居所增添艺术气息。",
     "image": "/images/piano.jpeg",
@@ -42,7 +42,7 @@
   {
     "id": 5,
     "name": "投影仪",
-    "price": 50,
+    "price": 40,
     "shortDescription": "手机电脑可投屏",
     "longDescription": "配遥控器，支持手机/电脑投屏和iOS镜像。画质中等但足够日常观影。注意：画面不能自动矫正，放置位置需要稍高。",
     "image": "/images/projector.jpeg",
@@ -52,7 +52,7 @@
   {
     "id": 6,
     "name": "50inch电视",
-    "price": 80,
+    "price": 70,
     "shortDescription": "打游戏神器! 双影奇境同屏神器!",
     "longDescription": "电视可连HDMI当显示器用，电视显示效果优秀，色彩鲜艳逼真。",
     "image": "/images/TV.jpeg",
@@ -142,7 +142,7 @@
   {
     "id": 15,
     "name": "电音蝌蚪",
-    "price": 15,
+    "price": 12,
     "shortDescription": "Otamatone入门神器",
     "longDescription": "Otamatone电音蝌蚪，可以发出各种奇妙声音。能演奏简单旋律，也可教学",
     "image": "/images/otamatone.jpeg",
@@ -182,7 +182,7 @@
   {
     "id": 19,
     "name": "黑色收纳柜 4x1",
-    "price": 8,
+    "price": 7,
     "shortDescription": "黑色收纳柜",
     "longDescription": "【多功能收纳柜】黑色4x1收纳柜，简约设计。",
     "image": "/images/cabinet2.jpeg",
@@ -191,23 +191,13 @@
   },
   {
     "id": 20,
-    "name": "L形书桌(4.29可出)",
+    "name": "L形书桌",
     "price": 20,
     "shortDescription": "超实用转角书桌，适合宿舍/小公寓，高性价比神器！",
     "longDescription": "【稀有工作台】这张L形书桌是空间利用的终极解决方案！独特的转角设计让它能完美贴合墙角，为你节省宝贵的房间空间，同时提供超大的操作平台。",
     "image": "/images/desk.jpg",
     "gallery": ["/images/desk.jpg", "/images/desk1.jpg"],
     "quality": 4
-  },
-  {
-    "id": 21,
-    "name": "4K60Hz 28寸显示器, mac很适合!(5月出)",
-    "price": 100,
-    "shortDescription": "色彩细腻、刷新流畅，MacBook直连无压力",
-    "longDescription": "【传说级视觉增强装置】这台28寸4K显示器将为你的视觉体验带来革命性提升！超高清分辨率让每一个像素都清晰可辨，60Hz刷新率确保画面流畅无比，完美适配macOS系统，插上即用无需复杂设置。",
-    "image": "/images/display.jpg",
-    "gallery": ["/images/display.jpg", "/images/display1.jpg"],
-    "quality": 5
   },
   {
     "id": 22,
@@ -272,7 +262,7 @@
   {
     "id": 28,
     "name": "微波炉",
-    "price": 40,
+    "price": 35,
     "shortDescription": "价格待定",
     "longDescription": "价格待定, 可加微信了解",
     "image": "/images/microwave.jpeg",
@@ -292,7 +282,7 @@
   {
     "id": 31,
     "name": "搅拌机",
-    "price": 22,
+    "price": 20,
     "shortDescription": "很新! 几乎未使用",
     "longDescription": "【多功能搅拌机】几乎全新的搅拌机，功能完好。可制作果汁、奶昔、酱料等，是厨房料理的好帮手。",
     "image": "/images/mixer2.jpeg",
@@ -332,7 +322,7 @@
   {
     "id": 35,
     "name": "滤水壶",
-    "price": 13,
+    "price": 10,
     "shortDescription": "可更换滤芯",
     "longDescription": "【净水神器】可更换滤芯的滤水壶，能有效过滤水中杂质，提供更纯净的饮用水。使用方便，维护简单。",
     "image": "/images/water.jpeg",
