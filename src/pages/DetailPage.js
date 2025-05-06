@@ -76,7 +76,7 @@ function DetailPage() {
         </div>
 
         <p className="item-price">
-          <span className="price-icon">💰</span> {product.price} 金币
+          <span className="price-icon">💰</span> {product.price === -1 ? "给钱就出" : `${product.price} 金币`}
         </p>
       </div>
 

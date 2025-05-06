@@ -2,9 +2,9 @@
   {
     "id": 1,
     "name": "次卧转租!",
-    "price": 450,
+    "price": 400,
     "shortDescription": "安娜堡北校好房转租",
-    "longDescription": "🔥【性价比爆棚】Willowtree Apartment 2B1B次卧暑期转租 🔥\n\n🗓 时间：2024/5/10 - 2024/7/31\n💰 租金：原价1079，现价仅500/月，包水气，网电另算\n📍 地址：1861 Shirley Lane\n📱 微信联系：j1600882808\n\n🚍 交通便利：公寓门口即是公交站（23/65路），15分钟直达中校，步行10-15分钟可达北校各大教学楼\n\n🍜 吃喝玩乐：10分钟内步行可达：Burger One、Mochinut、CoCo奶茶、NoThai、Nagomi、Saica、鸿运中餐；12分钟到北校NCRB健身中心；17分钟到Kroger、Way One中国超市、Moge Tee、麦当劳、Evergreen中餐\n\n🏠 公寓配置：一楼方便搬家，暑期独享整间，安静舒适；全套家具+生活用品（床、床垫、桌椅、厨具、电器、吸尘器等应有尽有）；小区配套：健身房、篮球场、网球场、游泳池、免费停车、物业可代收快递.",
+    "longDescription": "🔥【性价比爆棚】Willowtree Apartment 2B1B次卧暑期转租 🔥\n\n🗓 时间：2024/5/10 - 2024/7/31\n💰 租金：原价1079，现价仅400/月，包水气，网电另算\n📍 地址：1861 Shirley Lane\n📱 微信联系：j1600882808\n\n🚍 交通便利：公寓门口即是公交站（23/65路），15分钟直达中校，步行10-15分钟可达北校各大教学楼\n\n🍜 吃喝玩乐：10分钟内步行可达：Burger One、Mochinut、CoCo奶茶、NoThai、Nagomi、Saica、鸿运中餐；12分钟到北校NCRB健身中心；17分钟到Kroger、Way One中国超市、Moge Tee、麦当劳、Evergreen中餐\n\n🏠 公寓配置：一楼方便搬家，暑期独享整间，安静舒适；全套家具+生活用品（床、床垫、桌椅、厨具、电器、吸尘器等应有尽有）；小区配套：健身房、篮球场、网球场、游泳池、免费停车、物业可代收快递.",
     "image": "/images/house.jpeg",
     "gallery": ["/images/house.jpeg", "/images/apartment.jpg"],
     "quality": 5
@@ -54,7 +54,7 @@
     "name": "50inch电视",
     "price": 70,
     "shortDescription": "打游戏神器! 双影奇境同屏神器!",
-    "longDescription": "电视可连HDMI当显示器用，电视显示效果优秀，色彩鲜艳逼真。",
+    "longDescription": "型号Hisense 50H8C。电视可连HDMI当显示器用，电视显示效果优秀，色彩鲜艳逼真。",
     "image": "/images/TV.jpeg",
     "gallery": ["/images/TV.jpeg"],
     "quality": 3
@@ -101,23 +101,23 @@
   },
   {
     "id": 11,
-    "name": "白色床头柜",
-    "price": 10,
-    "shortDescription": "简约白色床头柜",
-    "longDescription": "【简约床头柜】柜子结构稳固，表面光滑，易于清洁。",
-    "image": "/images/desk.jpeg",
-    "gallery": ["/images/desk.jpeg"],
-    "quality": 4
+    "name": "马桶清洁剂",
+    "price": -1,
+    "shortDescription": "给钱就出，清洁效果佳",
+    "longDescription": "【卫生间清洁神器】高效马桶清洁剂，能有效去除污渍和异味。使用方便，效果持久，让您的卫生间保持清新。",
+    "image": "/images/toilet.jpeg",
+    "gallery": ["/images/toilet.jpeg"],
+    "quality": 5
   },
   {
     "id": 12,
-    "name": "Keychron K6 键盘",
-    "price": 30,
-    "shortDescription": "机械键盘，手感好",
-    "longDescription": "兼容Mac/Win，段落感强，敲击声音适中。适合办公+轻度游戏，性价比高。",
-    "image": "/images/keyboard.jpeg",
-    "gallery": ["/images/keyboard.jpeg"],
-    "quality": 4
+    "name": "体重秤",
+    "price": 5,
+    "shortDescription": "精准测量，使用方便",
+    "longDescription": "【健康管理助手】电子体重秤(单位lb)，显示清晰。适合日常体重管理，帮助您保持健康的生活方式。",
+    "image": "/images/weight.jpeg",
+    "gallery": ["/images/weight.jpeg"],
+    "quality": 3
   },
   {
     "id": 13,
@@ -182,7 +182,7 @@
   {
     "id": 19,
     "name": "黑色收纳柜 4x1",
-    "price": 7,
+    "price": 6,
     "shortDescription": "黑色收纳柜",
     "longDescription": "【多功能收纳柜】黑色4x1收纳柜，简约设计。",
     "image": "/images/cabinet2.jpeg",
@@ -200,9 +200,19 @@
     "quality": 4
   },
   {
+    "id": 21,
+    "name": "办公椅",
+    "price": 10,
+    "shortDescription": "舒适办公椅，可调节高度",
+    "longDescription": "【办公必备】可调节高度，提供舒适的办公体验。适合长时间工作使用，让您的办公时间更加舒适。",
+    "image": "/images/chair2.jpeg",
+    "gallery": ["/images/chair2.jpeg"],
+    "quality": 3
+  },
+  {
     "id": 22,
     "name": "鞋架",
-    "price": 5,
+    "price": 4,
     "shortDescription": "平平无奇的鞋架",
     "longDescription": "【简易装备整理架】这个貌似普通的鞋架其实是居家收纳的隐藏高手！虽然外表朴实无华，但其实用性却不容小觑。",
     "image": "/images/shoes.JPG",
@@ -212,7 +222,7 @@
   {
     "id": 23,
     "name": "黑色茶几",
-    "price": 8,
+    "price": 7,
     "shortDescription": "简约现代茶几",
     "longDescription": "【简约茶几】黑色茶几，简约现代设计。",
     "image": "/images/chaji.jpeg",
@@ -232,7 +242,7 @@
   {
     "id": 25,
     "name": "衣架",
-    "price": 15,
+    "price": 10,
     "shortDescription": "多功能衣架",
     "longDescription": "【多功能衣架】结实耐用的衣架，可挂放各类衣物。",
     "image": "/images/yijia.jpeg",
@@ -241,19 +251,19 @@
   },
   {
     "id": 26,
-    "name": "吸尘器",
-    "price": 15,
-    "shortDescription": "家用吸尘器",
-    "longDescription": "【清洁神器】家用吸尘器，吸力强劲，操作简单。适合清理地板、地毯等。",
-    "image": "/images/cleaner.jpeg",
-    "gallery": ["/images/cleaner.jpeg"],
+    "name": "手机支架",
+    "price": -1,
+    "shortDescription": "给钱就出，多角度调节",
+    "longDescription": "【手机伴侣】可调节角度的手机支架，适合视频通话、观看视频等场景。稳固耐用，使用方便。",
+    "image": "/images/phone.jpeg",
+    "gallery": ["/images/phone.jpeg"],
     "quality": 3
   },
   {
     "id": 27,
     "name": "9合1 Instant Pot",
     "price": 25,
-    "shortDescription": "「有瑕疵」",
+    "shortDescription": "「把手瑕疵」",
     "longDescription": "【多功能料理锅】9合1 Instant Pot，有些使用痕迹，但功能完好。可煮饭、煲汤、炖肉等，是厨房好帮手。",
     "image": "/images/pot.jpeg",
     "gallery": ["/images/pot.jpeg"],
@@ -263,8 +273,8 @@
     "id": 28,
     "name": "微波炉",
     "price": 35,
-    "shortDescription": "价格待定",
-    "longDescription": "价格待定, 可加微信了解",
+    "shortDescription": "家用微波炉，加热方便",
+    "longDescription": "【厨房必备】家用微波炉，操作简单，加热快速。适合日常加热食物、解冻等，是厨房不可或缺的电器。",
     "image": "/images/microwave.jpeg",
     "gallery": ["/images/microwave.jpeg"],
     "quality": 4
@@ -280,6 +290,16 @@
     "quality": 5
   },
   {
+    "id": 30,
+    "name": "桌子+4把椅子",
+    "price": 30,
+    "shortDescription": "餐桌套装，实用耐用",
+    "longDescription": "【餐桌套装】包含一张桌子和四把配套椅子。材质结实，使用舒适，是餐厅或厨房的理想选择。",
+    "image": "/images/table3.jpeg",
+    "gallery": ["/images/table3.jpeg"],
+    "quality": 3
+  },
+  {
     "id": 31,
     "name": "搅拌机",
     "price": 20,
@@ -291,8 +311,8 @@
   },
   {
     "id": 32,
-    "name": "雀巢胶囊咖啡机",
-    "price": 60,
+    "name": "雀巢胶囊咖啡机(送胶囊)",
+    "price": 50,
     "shortDescription": "家用咖啡机",
     "longDescription": "【咖啡神器】雀巢胶囊咖啡机，操作简单，可快速制作香浓咖啡。适合咖啡爱好者，让您在家也能享受专业咖啡。",
     "image": "/images/coffee.jpeg",
@@ -348,5 +368,55 @@
     "image": "/images/chair.jpeg",
     "gallery": ["/images/chair.jpeg"],
     "quality": 2
+  },
+  {
+    "id": 38,
+    "name": "马桶搋子",
+    "price": -1,
+    "shortDescription": "给钱就出，疏通必备",
+    "longDescription": "【疏通神器】专业马桶搋子，能有效解决堵塞问题。使用简单，效果显著，是家庭必备的清洁工具。",
+    "image": "/images/toilet2.jpeg",
+    "gallery": ["/images/toilet2.jpeg"],
+    "quality": 3
+  },
+  {
+    "id": 39,
+    "name": "七号篮球",
+    "price": 8,
+    "shortDescription": "标准七号篮球，手感好",
+    "longDescription": "【运动装备】标准七号篮球，适合日常训练和比赛使用。手感舒适，弹性适中。",
+    "image": "/images/basketball.jpeg",
+    "gallery": ["/images/basketball.jpeg"],
+    "quality": 4
+  },
+  {
+    "id": 40,
+    "name": "训练篮球",
+    "price": -1,
+    "shortDescription": "给钱就出，训练专用",
+    "longDescription": "【训练专用】专业训练篮球，适合日常练习和技巧训练。耐磨耐用，手感舒适，是提升球技的好帮手。",
+    "image": "/images/basketball2.jpg",
+    "gallery": ["/images/basketball2.jpg"],
+    "quality": 4
+  },
+  {
+    "id": 41,
+    "name": "男士雪地靴 Size 9",
+    "price": 10,
+    "shortDescription": "保暖防滑，适合冬季",
+    "longDescription": "【冬季必备】男士雪地靴，尺码9号，穿着舒适，适合冬季户外活动。",
+    "image": "/images/snow1.jpeg",
+    "gallery": ["/images/snow1.jpeg", "/images/snow2.jpeg", "/images/snow3.jpeg"],
+    "quality": 4
+  },
+  {
+    "id": 42,
+    "name": "晾衣架",
+    "price": 8,
+    "shortDescription": "晾衣架",
+    "longDescription": "【晾衣架】结实耐用的晾衣架，可挂放各类衣物。",
+    "image": "/images/yijia2.jpeg",
+    "gallery": ["/images/yijia2.jpeg"],
+    "quality": 3
   }
 ]

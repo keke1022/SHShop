@@ -26,6 +26,9 @@ function HomePage() {
   // 过滤出赠送商品，价格为0
   const donationProducts = products.filter((product) => product.price === 0);
 
+  // 过滤出"给钱就出"商品，价格为-1
+  const negotiableProducts = products.filter((product) => product.price === -1);
+
   const handleSliderChange = (e) => {
     setPriceFilter(Number(e.target.value));
   };
@@ -81,6 +84,9 @@ function HomePage() {
         <a href="#second-hand" className="nav-link">
           <span className="pixel-icon">🛒</span> 二手区
         </a>
+        <a href="#negotiable" className="nav-link">
+          <span className="pixel-icon">💎</span> 给钱就出
+        </a>
         <a href="#donation" className="nav-link">
           <span className="pixel-icon">🎁</span> 赠送区
         </a>
@@ -126,6 +132,50 @@ function HomePage() {
         ) : (
           <p className="no-products">
             <span className="pixel-icon">❌</span> 没有找到符合条件的商品，试试调高筛选价格！
+          </p>
+        )}
+      </div>
+
+      {/* 给钱就出区 */}
+      <div id="negotiable" className="section">
+        <h2 className="section-title">
+          <span className="pixel-icon">💎</span> 给钱就出
+        </h2>
+        {negotiableProducts.length > 0 ? (
+          <div className="product-container">
+            {negotiableProducts.map((product) => (
+              <div 
+                key={product.id} 
+                className="product-card negotiable"
+              >
+                <Link to={`/product/${product.id}`}>
+                  <div className="img-container">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/${product.image}`}
+                      alt={product.name}
+                      className="product-image"
+                    />
+                    <div className="image-overlay">
+                      <span className="click-me">OFFER</span>
+                    </div>
+                  </div>
+                </Link>
+                <h3 className="product-name">{product.name}</h3>
+                <p className="short-description">
+                  {product.shortDescription || "价格好商量，来聊聊吧！"}
+                </p>
+                <p className="price negotiable-price">
+                  <span className="pixel-icon">💎</span> 给钱就出
+                </p>
+                <Link to={`/product/${product.id}`} className="detail-link">
+                  <span className="pixel-icon">🔍</span> 查看详情
+                </Link>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <p className="no-products">
+            <span className="pixel-icon">❌</span> 目前暂无给钱就出的商品，先看看其他区吧！
           </p>
         )}
       </div>
