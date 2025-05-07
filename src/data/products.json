@@ -2,9 +2,9 @@
   {
     "id": 1,
     "name": "次卧转租!",
-    "price": 400,
+    "price": 350,
     "shortDescription": "安娜堡北校好房转租",
-    "longDescription": "🔥【性价比爆棚】Willowtree Apartment 2B1B次卧暑期转租 🔥\n\n🗓 时间：2024/5/10 - 2024/7/31\n💰 租金：原价1079，现价仅400/月，包水气，网电另算\n📍 地址：1861 Shirley Lane\n📱 微信联系：j1600882808\n\n🚍 交通便利：公寓门口即是公交站（23/65路），15分钟直达中校，步行10-15分钟可达北校各大教学楼\n\n🍜 吃喝玩乐：10分钟内步行可达：Burger One、Mochinut、CoCo奶茶、NoThai、Nagomi、Saica、鸿运中餐；12分钟到北校NCRB健身中心；17分钟到Kroger、Way One中国超市、Moge Tee、麦当劳、Evergreen中餐\n\n🏠 公寓配置：一楼方便搬家，暑期独享整间，安静舒适；全套家具+生活用品（床、床垫、桌椅、厨具、电器、吸尘器等应有尽有）；小区配套：健身房、篮球场、网球场、游泳池、免费停车、物业可代收快递.",
+    "longDescription": "🔥【性价比爆棚】Willowtree Apartment 2B1B次卧暑期转租 🔥\n\n🗓 时间：2024/5/10 - 2024/7/31\n💰 租金：原价1079，现价仅350/月，包水气，网电另算\n📍 地址：1861 Shirley Lane\n📱 微信联系：j1600882808\n\n🚍 交通便利：公寓门口即是公交站（23/65路），15分钟直达中校，步行10-15分钟可达北校各大教学楼\n\n🍜 吃喝玩乐：10分钟内步行可达：Burger One、Mochinut、CoCo奶茶、NoThai、Nagomi、Saica、鸿运中餐；12分钟到北校NCRB健身中心；17分钟到Kroger、Way One中国超市、Moge Tee、麦当劳、Evergreen中餐\n\n🏠 公寓配置：一楼方便搬家，暑期独享整间，安静舒适；全套家具+生活用品（床、床垫、桌椅、厨具、电器、吸尘器等应有尽有）；小区配套：健身房、篮球场、网球场、游泳池、免费停车、物业可代收快递.",
     "image": "/images/house.jpeg",
     "gallery": ["/images/house.jpeg", "/images/apartment.jpg"],
     "quality": 5
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "name": "IKEA 垃圾桶",
-    "price": 1,
+    "price": -1,
     "shortDescription": "简约实用的垃圾桶",
     "longDescription": "【基础物品收纳箱】来自瑞典工匠打造的IKEA经典款垃圾桶，坚固耐用的塑料材质，只需1金币即可带走这件实用道具，性价比极高！",
     "image": "/images/bin.jpeg",
@@ -41,13 +41,13 @@
   },
   {
     "id": 5,
-    "name": "投影仪",
-    "price": 40,
-    "shortDescription": "手机电脑可投屏",
-    "longDescription": "配遥控器，支持手机/电脑投屏和iOS镜像。画质中等但足够日常观影。注意：画面不能自动矫正，放置位置需要稍高。",
-    "image": "/images/projector.jpeg",
-    "gallery": ["/images/projector.jpeg"],
-    "quality": 3
+    "name": "三层小推车",
+    "price": 8,
+    "shortDescription": "多功能收纳推车，带轮子",
+    "longDescription": "【移动收纳神器】三层小推车，带轮子设计，移动方便。每层可独立收纳不同物品，适合厨房、浴室、卧室等多场景使用。",
+    "image": "/images/tuiche.JPG",
+    "gallery": ["/images/tuiche.JPG"],
+    "quality": 5
   },
   {
     "id": 6,
@@ -72,7 +72,7 @@
   {
     "id": 8,
     "name": "杯刷",
-    "price": 2,
+    "price": -1,
     "shortDescription": "Target 杯刷",
     "longDescription": "Target牌杯刷，单个出售，实用小物。",
     "image": "/images/cupbrush.jpeg",
@@ -162,7 +162,7 @@
   {
     "id": 17,
     "name": "杯子",
-    "price": 1,
+    "price": -1,
     "shortDescription": "轻度使用，手感不错",
     "longDescription": "普通水杯，使用次数不多",
     "image": "/images/cup.jpeg",
@@ -260,16 +260,6 @@
     "quality": 3
   },
   {
-    "id": 27,
-    "name": "9合1 Instant Pot",
-    "price": 25,
-    "shortDescription": "「把手瑕疵」",
-    "longDescription": "【多功能料理锅】9合1 Instant Pot，有些使用痕迹，但功能完好。可煮饭、煲汤、炖肉等，是厨房好帮手。",
-    "image": "/images/pot.jpeg",
-    "gallery": ["/images/pot.jpeg"],
-    "quality": 3
-  },
-  {
     "id": 28,
     "name": "微波炉",
     "price": 35,
@@ -331,13 +321,13 @@
   },
   {
     "id": 34,
-    "name": "大架子",
-    "price": 18,
-    "shortDescription": "大型储物架",
-    "longDescription": "【大型储物架】结实耐用的大架子，可放置各类物品。适合放在客厅、卧室或储物间，提供充足的收纳空间。",
-    "image": "/images/bigcabinet.jpeg",
-    "gallery": ["/images/bigcabinet.jpeg"],
-    "quality": 3
+    "name": "拖把 + 一盒湿拖布",
+    "price": 10,
+    "shortDescription": "清洁套装，含湿拖布",
+    "longDescription": "【清洁套装】拖把配一盒湿拖布，适合日常地面清洁。湿拖布可更换且一次性，使用方便。",
+    "image": "/images/mop.JPG",
+    "gallery": ["/images/mop.JPG"],
+    "quality": 5
   },
   {
     "id": 35,
@@ -418,5 +408,135 @@
     "image": "/images/yijia2.jpeg",
     "gallery": ["/images/yijia2.jpeg"],
     "quality": 3
+  },
+  {
+    "id": 43,
+    "name": "大小勺子、叉子等",
+    "price": -1,
+    "shortDescription": "铁勺子、陶瓷、铁叉子、甜品勺...",
+    "longDescription": "【餐具套装】包含铁勺子、陶瓷勺、铁叉子、甜品勺等多种餐具。给钱就出，适合新家入住或餐具补充。",
+    "image": "/images/fork.jpeg",
+    "gallery": ["/images/fork.jpeg"],
+    "quality": 4
+  },
+  {
+    "id": 44,
+    "name": "全新墨镜",
+    "price": -1,
+    "shortDescription": "墨镜可以并且仅可以搭在眼镜上",
+    "longDescription": "【眼镜伴侣】特殊设计的墨镜，可以完美搭在普通眼镜上使用。给钱就出，适合需要墨镜的眼镜用户。",
+    "image": "/images/sunglasses.jpeg",
+    "gallery": ["/images/sunglasses.jpeg"],
+    "quality": 5
+  },
+  {
+    "id": 45,
+    "name": "Target小收纳箱子",
+    "price": -1,
+    "shortDescription": "实用收纳盒，给钱就出",
+    "longDescription": "【收纳神器】Target小收纳箱，适合收纳各类小物件。给钱就出，性价比高。",
+    "image": "/images/box.jpeg",
+    "gallery": ["/images/box.jpeg"],
+    "quality": 3
+  },
+  {
+    "id": 46,
+    "name": "圣诞彩灯",
+    "price": 0,
+    "shortDescription": "节日氛围装饰，免费赠送",
+    "longDescription": "【节日氛围】圣诞彩灯，为你的空间增添节日气氛。免费赠送，让节日更有仪式感。",
+    "image": "/images/cris.jpeg",
+    "gallery": ["/images/cris.jpeg"],
+    "quality": 2
+  },
+  {
+    "id": 47,
+    "name": "厨具合集",
+    "price": -1,
+    "shortDescription": "漏勺、汤勺、擀面杖、铲子、筛子...",
+    "longDescription": "【厨房必备套装】包含漏勺、汤勺、擀面杖、铲子、筛子等实用厨具。给钱就出，适合新家入住或厨房升级。",
+    "image": "/images/chuju.jpeg",
+    "gallery": ["/images/chuju.jpeg"],
+    "quality": 3
+  },
+  {
+    "id": 48,
+    "name": "全新洗碗巾",
+    "price": -1,
+    "shortDescription": "全新未使用，给钱就出",
+    "longDescription": "【厨房清洁必备】全新未使用的洗碗巾，耐用易清洗。给钱就出，性价比高。",
+    "image": "/images/xiwan.jpeg",
+    "gallery": ["/images/xiwan.jpeg"],
+    "quality": 5
+  },
+  {
+    "id": 49,
+    "name": "战损躺椅",
+    "price": 0,
+    "shortDescription": "免费赠送，适合临时使用",
+    "longDescription": "【临时休息神器】虽然有亿些使用痕迹，但基本功能完好。免费赠送，适合临时休息或过渡期使用。",
+    "image": "/images/tangyi.jpeg",
+    "gallery": ["/images/tangyi.jpeg"],
+    "quality": 1
+  },
+  {
+    "id": 50,
+    "name": "帘子",
+    "price": -1,
+    "shortDescription": "美观浴室帘子",
+    "longDescription": "【浴室装饰】美观实用的浴室帘子，防水防潮，给钱就出。",
+    "image": "/images/lianzi.jpeg",
+    "gallery": ["/images/lianzi.jpeg"],
+    "quality": 5
+  },
+  {
+    "id": 51,
+    "name": "洗碗架",
+    "price": -1,
+    "shortDescription": "实用沥水架，给钱就出",
+    "longDescription": "【厨房收纳】实用洗碗沥水架，可放置碗碟、餐具等，让厨房更整洁。给钱就出，性价比高。",
+    "image": "/images/xiwanjia.jpeg",
+    "gallery": ["/images/xiwanjia.jpeg"],
+    "quality": 4
+  },
+  {
+    "id": 52,
+    "name": "餐垫",
+    "price": -1,
+    "shortDescription": "餐桌装饰，给钱就出",
+    "longDescription": "【餐桌装饰】美观实用的餐垫，保护桌面，增添用餐氛围。给钱就出，性价比高。",
+    "image": "/images/candian.jpeg",
+    "gallery": ["/images/candian.jpeg"],
+    "quality": 2
+  },
+  {
+    "id": 53,
+    "name": "厨具",
+    "price": -1,
+    "shortDescription": "刨子、筛子、水果刀、砧板...",
+    "longDescription": "【厨房工具套装】包含刨子、筛子、水果刀、砧板等实用厨具。给钱就出，适合新家入住或厨房升级。",
+    "image": "/images/chuju2.jpeg",
+    "gallery": ["/images/chuju2.jpeg"],
+    "quality": 3
+  },
+  {
+    "id": 54,
+    "name": "奶泡棒",
+    "price": -1,
+    "shortDescription": "咖啡奶泡神器，给钱就出",
+    "longDescription": "【咖啡伴侣】专业奶泡棒，可制作细腻奶泡，提升咖啡口感。给钱就出，适合咖啡爱好者。",
+    "image": "/images/naipao.jpeg",
+    "gallery": ["/images/naipao.jpeg"],
+    "quality": 3
+  },
+  {
+    "id": 55,
+    "name": "各类厨具",
+    "price": -1,
+    "shortDescription": "实用厨具套装，给钱就出",
+    "longDescription": "【厨房必备】各类实用厨具。肉眼可见，给钱就出，适合新家入住或厨房升级。",
+    "image": "/images/chuju3.jpeg",
+    "gallery": ["/images/chuju3.jpeg"],
+    "quality": 4
   }
 ]
