@@ -142,7 +142,7 @@
   {
     "id": 15,
     "name": "电音蝌蚪",
-    "price": 12,
+    "price": 10,
     "shortDescription": "Otamatone入门神器",
     "longDescription": "Otamatone电音蝌蚪，可以发出各种奇妙声音。能演奏简单旋律，也可教学",
     "image": "/images/otamatone.jpeg",
@@ -262,7 +262,7 @@
   {
     "id": 28,
     "name": "微波炉",
-    "price": 35,
+    "price": 30,
     "shortDescription": "家用微波炉，加热方便",
     "longDescription": "【厨房必备】家用微波炉，操作简单，加热快速。适合日常加热食物、解冻等，是厨房不可或缺的电器。",
     "image": "/images/microwave.jpeg",
@@ -311,10 +311,10 @@
   },
   {
     "id": 33,
-    "name": "电子秤",
+    "name": "厨房电子秤",
     "price": 9,
     "shortDescription": "很新",
-    "longDescription": "【精准电子秤】几乎全新的电子秤，测量精准，操作简单。适合称重食材、测量体重等。",
+    "longDescription": "【精准电子秤】几乎全新的电子秤，测量精准，适合称重食材。",
     "image": "/images/scale.jpeg",
     "gallery": ["/images/scale.jpeg"],
     "quality": 5
