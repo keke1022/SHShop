@@ -424,7 +424,7 @@
     "name": "全新墨镜",
     "price": -1,
     "shortDescription": "墨镜可以并且仅可以搭在眼镜上",
-    "longDescription": "【眼镜伴侣】特殊设计的墨镜，可以完美搭在普通眼镜上使用。给钱就出，适合需要墨镜的眼镜用户。",
+    "longDescription": "【眼镜伴侣】全新未使用的特殊设计墨镜，可以完美搭在普通眼镜上使用。给钱就出，适合需要墨镜的眼镜用户。",
     "image": "/images/sunglasses.jpeg",
     "gallery": ["/images/sunglasses.jpeg"],
     "quality": 5
@@ -537,6 +537,26 @@
     "longDescription": "【厨房必备】各类实用厨具。肉眼可见，给钱就出，适合新家入住或厨房升级。",
     "image": "/images/chuju3.jpeg",
     "gallery": ["/images/chuju3.jpeg"],
+    "quality": 4
+  },
+  {
+    "id": 56,
+    "name": "米缸",
+    "price": 5,
+    "shortDescription": "实用米缸，密封防潮",
+    "longDescription": "【厨房收纳】实用米缸，密封防潮设计，可存放大米、面粉等粮食。容量适中，使用方便。",
+    "image": "/images/rice.jpeg",
+    "gallery": ["/images/rice.jpeg"],
+    "quality": 5
+  },
+  {
+    "id": 57,
+    "name": "漏盆",
+    "price": -1,
+    "shortDescription": "厨房必备，给钱就出",
+    "longDescription": "【厨房必备】实用漏盆，可用于洗菜、沥水等。",
+    "image": "/images/lou.jpeg",
+    "gallery": ["/images/lou.jpeg"],
     "quality": 4
   }
 ]
