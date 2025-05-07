@@ -565,8 +565,8 @@
     "price": 10,
     "shortDescription": "结实耐用，易于组装",
     "longDescription": "【卧室必备】结实耐用的床架，结构稳定，易于组装和拆卸。适合各类床垫，为您的卧室提供稳固的支撑。",
-    "image": "/images/frame.jpeg",
-    "gallery": ["/images/frame.jpeg"],
+    "image": "/images/frame.jpg",
+    "gallery": ["/images/frame.jpg"],
     "quality": 4
   },
   {
@@ -575,8 +575,8 @@
     "price": 5,
     "shortDescription": "柔软舒适，增添温馨感",
     "longDescription": "【家居装饰】柔软舒适的地毯，能为您的空间增添温馨感。适合放在客厅、卧室等区域，既美观又实用。",
-    "image": "/images/mat.jpeg",
-    "gallery": ["/images/mat.jpeg"],
+    "image": "/images/mat.jpg",
+    "gallery": ["/images/mat.jpg"],
     "quality": 4
   }
 ]
