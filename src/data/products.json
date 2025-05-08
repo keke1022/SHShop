@@ -10,16 +10,6 @@
     "quality": 5
   },
   {
-    "id": 2,
-    "name": "钢琴🎹",
-    "price": 50,
-    "shortDescription": "kulu同款创作琴",
-    "longDescription": "【传奇装备】这不是普通的二手钢琴，这是由传说中的音乐大师kulu使用过的神秘乐器！每一个琴键都蕴含着独特的魔力，每一个音符都可能引发不可思议的灵感。据说kulu曾在这上面创作出数首震撼人心的旋律，而现在，这件宝物正在寻找新的主人。\n\n音色纯净如水晶，键盘触感如丝绸般顺滑，适合练习技能、创作新曲或为你的居所增添艺术气息。",
-    "image": "/images/piano.jpeg",
-    "gallery": ["/images/piano.jpeg"],
-    "quality": 4
-  },
-  {
     "id": 3,
     "name": "Target 3x2 柜子",
     "price": 10,
@@ -48,16 +38,6 @@
     "image": "/images/tuiche.JPG",
     "gallery": ["/images/tuiche.JPG"],
     "quality": 5
-  },
-  {
-    "id": 6,
-    "name": "50inch电视",
-    "price": 70,
-    "shortDescription": "打游戏神器! 双影奇境同屏神器!",
-    "longDescription": "型号Hisense 50H8C。电视可连HDMI当显示器用，电视显示效果优秀，色彩鲜艳逼真。",
-    "image": "/images/TV.jpeg",
-    "gallery": ["/images/TV.jpeg"],
-    "quality": 3
   },
   {
     "id": 7,
@@ -90,16 +70,6 @@
     "quality": 2
   },
   {
-    "id": 10,
-    "name": "HDMI-DP单向数据线",
-    "price": 0,
-    "shortDescription": "单向输出线，非双向",
-    "longDescription": "HDMI 转 DP 单向数据线，仅支持 HDMI 输出 → DP 显示输入，注意方向！",
-    "image": "/images/hdmidp.jpeg",
-    "gallery": ["/images/hdmidp.jpeg"],
-    "quality": 3
-  },
-  {
     "id": 11,
     "name": "马桶清洁剂",
     "price": -1,
@@ -112,7 +82,7 @@
   {
     "id": 12,
     "name": "体重秤",
-    "price": 5,
+    "price": 4,
     "shortDescription": "精准测量，使用方便",
     "longDescription": "【健康管理助手】电子体重秤(单位lb)，显示清晰。适合日常体重管理，帮助您保持健康的生活方式。",
     "image": "/images/weight.jpeg",
@@ -193,21 +163,11 @@
     "id": 20,
     "name": "L形书桌",
     "price": 20,
-    "shortDescription": "超实用转角书桌，适合宿舍/小公寓，高性价比神器！",
+    "shortDescription": "帮忙搬运-10刀",
     "longDescription": "【稀有工作台】这张L形书桌是空间利用的终极解决方案！独特的转角设计让它能完美贴合墙角，为你节省宝贵的房间空间，同时提供超大的操作平台。",
     "image": "/images/desk.jpg",
     "gallery": ["/images/desk.jpg", "/images/desk1.jpg"],
     "quality": 4
-  },
-  {
-    "id": 21,
-    "name": "办公椅",
-    "price": 10,
-    "shortDescription": "舒适办公椅，可调节高度",
-    "longDescription": "【办公必备】可调节高度，提供舒适的办公体验。适合长时间工作使用，让您的办公时间更加舒适。",
-    "image": "/images/chair2.jpeg",
-    "gallery": ["/images/chair2.jpeg"],
-    "quality": 3
   },
   {
     "id": 22,
@@ -260,16 +220,6 @@
     "quality": 3
   },
   {
-    "id": 28,
-    "name": "微波炉",
-    "price": 30,
-    "shortDescription": "家用微波炉，加热方便",
-    "longDescription": "【厨房必备】家用微波炉，操作简单，加热快速。适合日常加热食物、解冻等，是厨房不可或缺的电器。",
-    "image": "/images/microwave.jpeg",
-    "gallery": ["/images/microwave.jpeg"],
-    "quality": 4
-  },
-  {
     "id": 29,
     "name": "打蛋器",
     "price": 15,
@@ -281,23 +231,13 @@
   },
   {
     "id": 30,
-    "name": "桌子+4把椅子",
+    "name": "大桌子+4把椅子",
     "price": 30,
     "shortDescription": "餐桌套装，实用耐用",
     "longDescription": "【餐桌套装】包含一张桌子和四把配套椅子。材质结实，使用舒适，是餐厅或厨房的理想选择。",
     "image": "/images/table3.jpeg",
     "gallery": ["/images/table3.jpeg"],
     "quality": 3
-  },
-  {
-    "id": 31,
-    "name": "搅拌机",
-    "price": 20,
-    "shortDescription": "很新! 几乎未使用",
-    "longDescription": "【多功能搅拌机】几乎全新的搅拌机，功能完好。可制作果汁、奶昔、酱料等，是厨房料理的好帮手。",
-    "image": "/images/mixer2.jpeg",
-    "gallery": ["/images/mixer2.jpeg"],
-    "quality": 5
   },
   {
     "id": 32,
@@ -340,26 +280,6 @@
     "quality": 3
   },
   {
-    "id": 36,
-    "name": "锅",
-    "price": 9,
-    "shortDescription": "很新",
-    "longDescription": "【厨房必备】材质优良，导热均匀。适合日常烹饪，是厨房不可或缺的工具。",
-    "image": "/images/pan.jpeg",
-    "gallery": ["/images/pan.jpeg"],
-    "quality": 3
-  },
-  {
-    "id": 37,
-    "name": "转椅",
-    "price": 6,
-    "shortDescription": "办公转椅",
-    "longDescription": "【办公转椅】可360度旋转。",
-    "image": "/images/chair.jpeg",
-    "gallery": ["/images/chair.jpeg"],
-    "quality": 2
-  },
-  {
     "id": 38,
     "name": "马桶搋子",
     "price": -1,
@@ -370,44 +290,35 @@
     "quality": 3
   },
   {
-    "id": 39,
-    "name": "七号篮球",
-    "price": 8,
-    "shortDescription": "标准七号篮球，手感好",
-    "longDescription": "【运动装备】标准七号篮球，适合日常训练和比赛使用。手感舒适，弹性适中。",
-    "image": "/images/basketball.jpeg",
-    "gallery": ["/images/basketball.jpeg"],
-    "quality": 4
-  },
-  {
     "id": 40,
     "name": "训练篮球",
     "price": -1,
     "shortDescription": "给钱就出，训练专用",
     "longDescription": "【训练专用】专业训练篮球，适合日常练习和技巧训练。耐磨耐用，手感舒适，是提升球技的好帮手。",
+
     "image": "/images/basketball2.jpg",
     "gallery": ["/images/basketball2.jpg"],
     "quality": 4
   },
   {
     "id": 41,
-    "name": "男士雪地靴 Size 9",
-    "price": 10,
-    "shortDescription": "保暖防滑，适合冬季",
-    "longDescription": "【冬季必备】男士雪地靴，尺码9号，穿着舒适，适合冬季户外活动。",
-    "image": "/images/snow1.jpeg",
-    "gallery": ["/images/snow1.jpeg", "/images/snow2.jpeg", "/images/snow3.jpeg"],
+    "name": "哑铃",
+    "price": 6,
+    "shortDescription": "训练专用",
+    "longDescription": "【训练专用】",
+    "image": "/images/dumbbell.jpg",
+    "gallery": ["/images/dumbbell.jpg"],
     "quality": 4
   },
   {
     "id": 42,
     "name": "晾衣架",
-    "price": 8,
+    "price": 6,
     "shortDescription": "晾衣架",
     "longDescription": "【晾衣架】结实耐用的晾衣架，可挂放各类衣物。",
     "image": "/images/yijia2.jpeg",
     "gallery": ["/images/yijia2.jpeg"],
-    "quality": 3
+    "quality": 4
   },
   {
     "id": 43,
@@ -432,7 +343,7 @@
   {
     "id": 45,
     "name": "Target小收纳箱子",
-    "price": -1,
+    "price": 2,
     "shortDescription": "实用收纳盒，给钱就出",
     "longDescription": "【收纳神器】Target小收纳箱，适合收纳各类小物件。给钱就出，性价比高。",
     "image": "/images/box.jpeg",
@@ -492,7 +403,7 @@
   {
     "id": 51,
     "name": "洗碗架",
-    "price": -1,
+    "price": 2,
     "shortDescription": "实用沥水架，给钱就出",
     "longDescription": "【厨房收纳】实用洗碗沥水架，可放置碗碟、餐具等，让厨房更整洁。给钱就出，性价比高。",
     "image": "/images/xiwanjia.jpeg",
@@ -522,7 +433,7 @@
   {
     "id": 54,
     "name": "奶泡棒",
-    "price": -1,
+    "price": 5,
     "shortDescription": "咖啡奶泡神器，给钱就出",
     "longDescription": "【咖啡伴侣】专业奶泡棒，可制作细腻奶泡，提升咖啡口感。给钱就出，适合咖啡爱好者。",
     "image": "/images/naipao.jpeg",
@@ -562,8 +473,8 @@
   {
     "id": 58,
     "name": "床架",
-    "price": 10,
-    "shortDescription": "结实耐用，易于组装",
+    "price": 0,
+    "shortDescription": "免费出床架! 但是需要帮忙搬运!",
     "longDescription": "【卧室必备】结实耐用的床架，结构稳定，易于组装和拆卸。适合各类床垫，为您的卧室提供稳固的支撑。",
     "image": "/images/frame.jpg",
     "gallery": ["/images/frame.jpg"],
